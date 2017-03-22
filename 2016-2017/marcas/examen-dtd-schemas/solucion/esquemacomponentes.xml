@@ -47,7 +47,8 @@
             <xsd:restriction base="xsd:anyType">
                 <xsd:sequence>
                     <xsd:element name="fabricante"
-                                 type="xsd:string"/>
+                                 type="xsd:string"
+                                 minOccurs="0"/>
                     <xsd:element name="fabricacion"
                                  type="tipoFabricacion"/>
                 </xsd:sequence>
