@@ -6,10 +6,12 @@
 \pregunta{Un cliente está intentando empezar con una conexión y envía al 
 servidor el paquete SYN, sin embargo justo despues de que el SYN llegue correctamente
 al servidor el cable se corta ¿qué pasará en el servidor y en el cliente?}{2}
-\pregunta{¿Qué son los puertos dinámicos? ¿qué valores toman?}{2}
-\pregunta{Un administrador administra una red cuyas direcciones son del tipo 10.0.0.0/8. Dentro hay un servidor web con la IP 10.0.0.10 y se desea evitar que personas de redes externas se conecten a dicho servidor tanto al servidor ``normal'' como al servidor ``seguro''. El administrador también desea que la máquina con la IP 10.0.0.2 no pueda consultar los DNS de la IP 8.8.8.8 (el puerto DNS es el 53 UDP).Explica detalladamente qué pasos tendrá que dar en el cortafuegos.}{4}
-\pregunta{Explica los pasos que da TCP para cerrar una conexión establecida.}{1}
-\pregunta{¿Qué quiere decir que la capa de transporte haga ``multiplexación''?}{1}
 
+\pregunta{Un administrador administra una red cuyas direcciones son del tipo 192.168.1.0/24. Dentro de la red hay un servidor de correo en el puerto TCP 25 y se desea que usuarios externos que están en la red 80.0.0.0/16 puedan conectarse
+a dicho servidor para descargar su correo. Además de esto, se desea que nuestras máquinas no puedan conectarse a ningún servicio FTP (puertos TCP 20 y 21) que estén en el exterior. Explica detalladamente las operaciones a realizar
+en el cortafuegos.}{4}
+\pregunta{Si tenemos un servidor web en el puerto TCP 80 virtualizado dentro de una máquina virtual con VirtualBox ¿qué tendremos que hacer para que una máquina externa pueda conectarse a dicho puerto TCP 80?}{1}
+\pregunta{¿Qué hace el comando netstat?}{1}
+\pregunta{¿En qué se diferencian los puertos bien conocidos de los registrados?}{2}
 
-\end{document}
+\end{document}cta
