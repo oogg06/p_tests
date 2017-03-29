@@ -1,0 +1,65 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas}
+
+\pregunta{Elaborar un esquema XML que permita validar un fichero XML que se atenga a las reglas siguientes:}{6}
+\begin{itemize}
+\item{El elemento raíz se llama {\tt ventas}. Dentro de él debe haber 1 o más elementos {\tt venta}}
+\item{Todo elemento {\tt venta} tiene un atributo obligatorio llamado {\tt código} cuya estructura siempre es dos letras mayúsculas seguidas de cuatro cifras.}
+\item{Dentro de un elemento {\tt venta} debe haber uno de tres posibles elementos: {\tt cemento}, {\tt ladrillos} o {\tt azulejos}. Toda venta lleva siempre un atributo llamado {\tt código}}
+\item{Dentro de un elemento {\tt cemento} puede haber (o no) en primer lugar un elemento llamado {\tt portepagado} que solo puede valer {\tt true} o {\tt false}. Despues debe haber un elemento llamado {\tt peso}. El peso puede tener (o no) un atributo llamado {\tt unidad}. Dentro del atributo unidad puede haber cualquier cadena. Dentro del elemento {\tt peso} solo puede haber enteros positivos.}
+\item{Dentro del elemento {\tt ladrillos} debe haber siempre un elemento llamado {\tt modelo} y puede haber o no un {\tt peso}, cuyas reglas son exactamente las mismas del {\tt peso} anterior.}
+\item{Dentro de {\tt azulejos} debe haber en primer lugar un elemento {\tt color} y despues debe haber un elemento {\tt peso}. El {\tt peso} tiene las mismas reglas de antes. El elemento color puede llevar o no un atributo llamado {\tt escala}. El atributo escala solo puede llevar dentro las cadenas {\tt rgb} o {\tt hsv}.Dentro de color puede haber una cadena cualquiera.}\item{A modo de ejemplo se muestra al final  un fichero XML de ejemplo que debería validarse correctamente con la DTD.}
+\end{itemize}
+
+\break
+
+\pregunta{Crear un fichero de esquema XML que permita validar un fichero XML como el mostrado al final y para el cual se han definido las siguientes reglas}{4}
+\begin{itemize}
+\item{Debe haber un elemento raíz llamado {\tt componentes} que debe contener uno o más elementos {\tt componente}}
+\item{Un componente puede ser dos cosas: un elemento {\tt discoduro} o un elemento {\tt discossd}. Cualquiera de los dos debe llevar siempre un atributo {\tt capacidad} y un atributo llamado cantidad. }
+\item{Dentro de {\tt discoduro} ocurre lo siguiente: puede haber un primer elemento llamado {\tt fabricante}. Despues hay un elemento obligatorio llamado {\tt precio}.}
+\item{Dentro de {\tt discossd} puede haber un primer elemento optativo llamado {\tt fabricante}. Despues debe haber un elemento {\tt fabricación} con un atributo optativo {\tt país} que puede contener una cadena cualquiera. Dentro de {\tt fabricación} el contenido puede ser cualquier cadena.}
+
+\end{itemize}
+\break
+\begin{verbatim}
+<ventas>
+    <venta codigo="VV0001">
+        <cemento>
+            <portepagado>true</portepagado>
+            <peso unidad="kg">1000</peso>
+        </cemento>
+    </venta>
+    <venta codigo="VV0002">
+        <ladrillos>
+            <modelo>L72</modelo>
+        </ladrillos>
+    </venta>
+    <venta codigo="VV0003">
+        <azulejos>
+            <color escala="rgb">00ffdd</color>
+            <peso>150</peso>
+        </azulejos>
+    </venta>
+</ventas>
+\end{verbatim}
+
+\begin{verbatim}
+<componentes>
+    <componente>
+        <discoduro capacidad="GB" cantidad="500">
+            <fabricante>Western Digital</fabricante>
+            <precio>150 dolares</precio>
+        </discoduro>
+    </componente>
+    <componente>
+        <discossd capacidad="GB" cantidad="250">
+            <fabricante>Seagate</fabricante>
+            <fabricacion pais="China">Proceso litográfico</fabricacion>
+        </discossd>
+    </componente>
+</componentes>
+\end{verbatim}
+\end{document}
