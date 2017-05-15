@@ -1,0 +1,80 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas y sistemas de gestión de información}
+
+
+\pregunta{En el HTML siguiente se genera un formulario con tres controles
+\begin{itemize}
+\item{El primer control se llama ``num1'' y siempre es un número entero}
+\item{El segundo control es una lista desplegable y el usuario puede seleccionar dos opciones llamadas ``sumar'' y ``restar''.}
+\item{El tercer control se llama ``num2'' y siempre es un número entero}
+\end{itemize}
+Crear una aplicación que en función de la operación que elija el usuario muestre la suma o la resta de los dos números.
+}{5}
+
+\begin{verbatim}
+<form>
+    <input type="text" id="num1">
+    <select id="operacion">
+        <option value="sumar">+</option>
+        <option value="restar">-</option>
+    </select>
+    <input type="text" id="num2">
+</form>
+
+\end{verbatim}
+
+\break
+
+\pregunta{Una editorial desea ofrecer a sus clientes una aplicación que les permita saber como combinar la compra de sus periódicos y revistas de la forma que les resulte más ventajosa. 
+
+Las revistas se llaman TodoCiencia, SoloTV y MasCrucigramas y los precios de sus suscripciones son respectivamente son 100, 50 y 40 euros anuales. Los periódicos ``El diario'', ``El suceso'' y ``Econoticias'' cuestan respectivamente 200, 180 y 150 euros anuales. Se puede combinar una revista con uno o más periódicos. Por defecto debe aparecer marcada la revista ``TodoCiencia`` con todos los periódicos marcados.
+
+La editorial anterior desea que la aplicación anterior implemente ciertos comportamientos en función de las ofertas:
+
+\begin{itemize}
+\item{ Cuando el cliente marque revistas o periódicos la aplicación mostrará en el recuadro las publicaciones que el usuario compra así como el precio total a pagar.}
+\item{ Si se marca un periódico cualquiera y una revista el precio total se reduce al 90\%.}
+\item{ Si se marca un periódico cualquiera y dos revistas el precio total se reduce al 80\%.}
+\item{ Si se marcan dos  periódicos cualesquiera y dos revistas el precio total se reduce al 60\%.}
+\item{Cualquier operación donde entre la revista ``TodoCiencia`` resta 3 euros adicionales a cualquier oferta anterior.}
+\item{Cualquier operación donde entre la revista ``SoloTV`` y el periódico ``Econoticias'' resta 5 euros adicionales a cualquier oferta anterior.}
+\end{itemize}
+}{5}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=.8\textwidth]{examen-img/revistas.png}
+\caption{Formulario de compra editorial}
+\end{figure}
+
+\break
+
+\begin{verbatim}
+<!-- HTML con los controles-->
+<h4>Revistas</h4>
+<input type="radio" name="revistas" value="ciencia" id="ciencia" checked>
+
+<label for="ciencia">TodoCiencia</label>
+<input type="radio" name="revistas" value="tv" id="tv">
+
+<label for="tv">SoloTV</label>
+<input type="radio" name="revistas" value="crucigramas" id="crucigramas">
+                   
+<label for="crucigramas">MasCrucigramas</label>
+
+<h4>Periódicos</h4>
+
+<input type="checkbox" name="periodicos[]" id="diario" value="diario" >
+<label for="diario">El diario</label>
+                    
+<input type="checkbox" name="periodicos[]" id="suceso" value="suceso">
+<label for="suceso">El suceso</label>
+                    
+<input type="checkbox" name="periodicos[]" id="econoticias" value="econoticias">
+<label for="econoticias">Econoticias</label>
+
+Precio:<input type="text" id="precio_total">
+\end{verbatim}
+\end{document}
