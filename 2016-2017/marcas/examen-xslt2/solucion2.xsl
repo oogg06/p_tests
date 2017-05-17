@@ -11,12 +11,17 @@
                             </xsl:attribute>
                             <peso><xsl:value-of select="peso"/></peso>
                             <ram>
-                                <xsl:attribute name="cantidad">
-                                    <xsl:value-of select="ram"/>
-                                </xsl:attribute>
-                                <xsl:attribute name="unidad">
-                                    <xsl:value-of select="ram/@unidad"/>
-                                </xsl:attribute>
+                                <xsl:if test="ram/@unidad = 'MB'">
+                                    <xsl:attribute name="cantidad">
+                                        <xsl:value-of select="ram div 1024"/>
+                                    </xsl:attribute>
+                                </xsl:if>
+                                <xsl:if test="ram/@unidad = 'GB'">
+                                    <xsl:attribute name="cantidad">
+                                        <xsl:value-of select="ram"/>
+                                    </xsl:attribute>
+                                </xsl:if>
+                                <xsl:attribute name="unidad">GB</xsl:attribute>
                             </ram>
                         </portatil>
                     </xsl:if>
@@ -54,12 +59,17 @@
                             </xsl:attribute>
                             <peso><xsl:value-of select="peso"/></peso>
                             <ram>
-                                <xsl:attribute name="cantidad">
-                                    <xsl:value-of select="ram"/>
-                                </xsl:attribute>
-                                <xsl:attribute name="unidad">
-                                    <xsl:value-of select="ram/@unidad"/>
-                                </xsl:attribute>
+                                <xsl:if test="ram/@unidad = 'MB'">
+                                    <xsl:attribute name="cantidad">
+                                        <xsl:value-of select="ram div 1024"/>
+                                    </xsl:attribute>
+                                </xsl:if>
+                                <xsl:if test="ram/@unidad = 'GB'">
+                                    <xsl:attribute name="cantidad">
+                                        <xsl:value-of select="ram"/>
+                                    </xsl:attribute>
+                                </xsl:if>
+                                <xsl:attribute name="unidad">GB</xsl:attribute>
                             </ram>
                         </portatil>
                     </xsl:if>
