@@ -1,0 +1,94 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Redes}
+
+
+\pregunta{Examina las tablas siguientes de tres router conectados en línea (A--B--C). Al router A llega un datagrama por la Interfaz FastEthernet 0/0 cuya dirección de destino es 161.63.45.81. Explica lo que ocurre a continuación. Recuerda que 0.0.0.0 significa ``en cualquier otro caso''}{3}
+
+
+\begin{table}[h]
+	\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Interfaz & FastEthernet 0/0 & IP: 1.0.0.1 \\
+			\hline
+			\hline
+			Interfaz & FastEthernet 0/1 & IP: 2.0.0.1 \\
+			\hline
+			\hline
+			10.0.0.0 & 255.255.255.0 & 1.0.0.2\\
+			\hline 
+			20.0.0.0 & 255.255.255.0 & 2.0.0.2\\
+			\hline 
+			161.63.45.0 & 255.255.255.0 & 2.0.0.2\\
+			\hline 
+			30.0.0.0 &  255.255.255.0 & 2.0.0.2\\
+			\hline 
+			40.0.0.0 &  255.255.255.0 & 1.0.0.2\\
+			\hline
+		\end{tabular}
+	\caption{Configuracion del router A}
+	\label{tab:Configuraciones}
+\end{table}
+
+
+\begin{table}[h]
+	\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Interfaz & FastEthernet 0/0 & IP: 2.0.0.2 \\
+			\hline
+			\hline
+			Interfaz & FastEthernet 0/1 & IP: 3.0.0.1 \\
+			\hline
+			\hline
+			10.0.0.0 & 255.255.255.0 & 2.0.0.1\\
+			\hline 
+			30.0.0.0 &  255.255.255.0 & 2.0.0.1\\
+			\hline 
+			40.0.0.0 &  255.255.255.0 & 1.0.0.2\\
+			\hline
+			0.0.0.0 & 255.255.255.255 & 3.0.0.2 \\
+			\hline
+		\end{tabular}
+	\caption{Configuracion del router B}
+	\label{tab:ConfiguracionesB}
+\end{table}
+
+\begin{table}[h]
+	\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Interfaz & FastEthernet 0/0 & IP: 3.0.0.2 \\
+			\hline
+			\hline
+			Interfaz & FastEthernet 0/1 & IP: 4.0.0.1 \\
+			\hline
+			\hline
+			10.0.0.0 & 255.255.255.0 & 3.0.0.1\\
+			\hline 
+			30.0.0.0 &  255.255.255.0 & 3.0.0.1\\
+			\hline 
+			40.0.0.0 &  255.255.255.0 & 3.0.0.1\\
+			\hline
+			0.0.0.0 & 255.255.255.255 & 3.0.0.1 \\
+			\hline
+		\end{tabular}
+	\caption{Configuracion del router C}
+	\label{tab:ConfiguracionesB}
+\end{table}
+
+\pregunta{Una empresa tiene cinco sedes con cinco routers A, B, C, D y E conectados como indica la figura,con enrutamiento estático. En cada sede los prefijos asignados son:
+\begin{itemize}
+	\item 10.0.0.0/8 para la sede A
+	\item 20.0.0.0/24 para la sede B
+	\item 30.0.0.0/16 para la sede C
+	\item 40.0.0.0/24 para la sede D
+	\item 50.0.0.0/24 para la sede E
+\end{itemize}
+
+Rellena las tablas adjuntas con las IP, y las rutas.}{4.5}
+
+\pregunta{Di todo lo que sepas sobre el enrutamiento dinámico}{2.5}
+\end{document}

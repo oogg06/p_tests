@@ -3,15 +3,29 @@
 \begin{document}
 \modulo{Redes}
 
-\pregunta{Un cliente está intentando empezar con una conexión y envía al 
-servidor el paquete SYN, sin embargo justo despues de que el SYN llegue correctamente
-al servidor el cable se corta ¿qué pasará en el servidor y en el cliente?}{2}
+\pregunta{Indica todas las categorías de puertos indicando los posibles valores que puede tomar cada grupo}{2}
 
-\pregunta{Un administrador administra una red cuyas direcciones son del tipo 192.168.1.0/24. Dentro de la red hay un servidor de correo en el puerto TCP 25 y se desea que usuarios externos que están en la red 80.0.0.0/16 puedan conectarse
-a dicho servidor para descargar su correo. Además de esto, se desea que nuestras máquinas no puedan conectarse a ningún servicio FTP (puertos TCP 20 y 21) que estén en el exterior. Explica detalladamente las operaciones a realizar
-en el cortafuegos.}{4}
+\pregunta{Un administrador administra una red cuyas direcciones son del tipo 62.41.128.0/20. Dentro de la red hay los sistemas siguientes:
+
+\begin{itemize}
+\item{Un servidor de bases de datos que opera en el puerto 3306 en la dirección 62.41.128.10}
+\item{Un servidor con una aplicación que trabaja en el puerto 5432 y en la dirección 62.41.128.11}
+\item{Un conjunto de ordenadores que está en la red 179.99.101.0/25}
+\end{itemize}
+En la parte exterior de la empresa están las siguientes redes de inte?es:
+\begin{itemize}
+\item{La red 161.192.224.0/26 que pertenece a otra sede de la empresa.}
+\item{La red 59.21.0.0/12 que pertenece a unos clientes de la empresa y que tiene un servidor en la IP 59.21.0.1/12 y puerto 8195.}
+\end{itemize}
+Dada esta situación la empresa desea que su cortafuegos haga cumplir los siguientes requisitos.
+\begin{itemize}
+\item{Se desea permitir que la otra sede de la empresa pueda conectarse a ambos servidores de esta sede}
+\item{Se desea que los ordenadores de nuestra empresa puedan conectarse al servidor de  los clientes}
+\item{Cuando llegue tráfico de cualquier otra red deseamos que entre para poder registrarlo pero nunca se permitirá el tráfico de respuesta}
+\end{itemize}
+}{5}
 \pregunta{Si tenemos un servidor web en el puerto TCP 80 virtualizado dentro de una máquina virtual con VirtualBox ¿qué tendremos que hacer para que una máquina externa pueda conectarse a dicho puerto TCP 80?}{1}
-\pregunta{¿Qué hace el comando netstat?}{1}
-\pregunta{¿En qué se diferencian los puertos bien conocidos de los registrados?}{2}
+\pregunta{Explica las diferencias entre TCP y UDP}{1}
+\pregunta{¿Como funciona el cierre de conexiones en TCP?}{1}
 
 \end{document}
