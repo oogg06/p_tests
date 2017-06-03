@@ -1,0 +1,97 @@
+\documentclass{examen}
+\usepackage{listings}
+\begin{document}
+
+\modulo{Lenguajes de marcas -- PARTE ORDENADOR}
+
+\pregunta{Crea una página HTML que se modifique con CSS y que contenga los siguientes
+elementos
+\begin{itemize}
+\item{Dos encabezamientos h1 y dos encabezamientos h2. Modifica con CSS y el atributo
+{\tt class} su aspecto para que aparezcan escritos con un color distinto.}
+\item{Crea una lista numerada con 3 elementos. Modifica el tipo de letra del primero y el tercero usando {\tt id}}
+\item{Crea una tabla de 3 filas y 4 columnas. Dentro de cada celda puedes escribir cualquier cosa. Usando CSS y la técnica que prefieras modifica el fondo de las celdas de la columna que quieras}
+\end{itemize}
+}{2}
+\break
+\pregunta{Dado el archivo XML que se puede encontrar a continuación, 
+crear una hoja de estilo XSLT que genere el HTML necesario para que se extraigan en forma de lista ordenada los datos (plataforma, cantidad de RAM y tamaño) de los tablets cuya RAM sea menor de 3 GB.
+}{3}
+\begin{verbatim}
+<pedido><!--FICHERO ORIGINAL-->
+    <portatiles>
+        <portatil>
+            <peso>1430</peso>
+            <ram unidad="MB">4096</ram>
+            <disco tipo="ssd">500</disco>
+            <precio>499</precio>
+        </portatil>
+        <portatil>
+            <peso>1830</peso>
+            <ram unidad="GB">6</ram>
+            <disco tipo="ssd">1000</disco>
+            <precio>1199</precio>
+        </portatil>
+        <portatil>
+            <peso>1250</peso>
+            <ram unidad="MB">2048</ram>
+            <disco tipo="ssd">750</disco>
+            <precio>699</precio>
+        </portatil>
+    </portatiles>
+    <tablets>
+        <tablet>
+            <plataforma>Android</plataforma>
+            <caracteristicas>
+                <memoria medida="GB">2</memoria>
+                <tamanio medida="pulgadas">6</tamanio>
+                <bateria>LiPo</bateria>
+            </caracteristicas>
+        </tablet>
+        <tablet>
+            <plataforma>iOS</plataforma>
+            <caracteristicas>
+                <memoria medida="GB">4</memoria>
+                <tamanio medida="pulgadas">9</tamanio>
+                <bateria>LiIon</bateria>
+            </caracteristicas>
+        </tablet>
+    </tablets>
+</pedido>
+\end{verbatim}
+\begin{verbatim}
+<!--Esto debe ser lo que devuelva el archivo XSLT-->
+<html>
+  <head>
+    <title>Ejercicio 1</title>
+  </head>
+  <body>
+    <h1>Resultado</h1>
+    <table border="1">
+      <tr>
+        <td>Precio:499</td>
+        <td>Memoria:4096</td>
+        <td>Disco duro:500</td>
+      </tr>
+      <tr>
+        <td>Precio:1199</td>
+        <td>Memoria:6</td>
+        <td>Disco duro:1000</td>
+      </tr>
+      <tr>
+        <td>Precio:699</td>
+        <td>Memoria:2048</td>
+        <td>Disco duro:750</td>
+      </tr>
+      <tr>
+        <td>iOS</td>
+        <td>4</td>
+        <td>LiIon</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+\end{verbatim}
+
+\end{document}
