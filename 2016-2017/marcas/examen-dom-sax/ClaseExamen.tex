@@ -24,7 +24,9 @@ public class ProcesadorSAX extends DefaultHandler{
   {
   
   } //Fin de endElement
-
+  public void characters (char[] letras, int inicio, int final){
+  
+  } //Fin de characters
   public static void main(String[] args) throws ParserConfigurationException,
       SAXException, IOException {
     SAXParserFactory fabrica;
@@ -34,7 +36,9 @@ public class ProcesadorSAX extends DefaultHandler{
     lector.setContentHandler(new ProcesadorSAX());
     lector.parse("archivo.xml");
   } //Fin de main
-} //Fin de la clase\end{verbatim}
+} //Fin de la clase
+
+\end{verbatim}
 
 \break
 
