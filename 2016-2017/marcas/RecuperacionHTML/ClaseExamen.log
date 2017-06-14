@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.21)  13 JUN 2017 12:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.21)  14 JUN 2017 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -213,28 +213,34 @@ Package pdftex.def Info: examen-img/foto_formulario_11.png used on input line 8
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./examen-img/Escudo.png> <
-./examen-img/foto_formulario_11.png>] [2] (./ClaseExamen.aux
+./examen-img/foto_formulario_11.png>] <examen-img/foto_06.png, id=12, 413.545pt
+ x 260.975pt>
+File: examen-img/foto_06.png Graphic file (type png)
+
+<use examen-img/foto_06.png>
+Package pdftex.def Info: examen-img/foto_06.png used on input line 19.
+(pdftex.def)             Requested size: 206.77199pt x 130.48718pt.
+ [2 <./examen-img/foto_06.png>] (./ClaseExamen.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 2524 strings out of 494409
- 34679 string characters out of 6164644
- 97716 words of memory out of 5000000
- 5756 multiletter control sequences out of 15000+600000
- 4754 words of font info for 18 fonts, out of 8000000 for 9000
+ 2526 strings out of 494409
+ 34768 string characters out of 6164644
+ 96716 words of memory out of 5000000
+ 5758 multiletter control sequences out of 15000+600000
+ 4586 words of font info for 17 fonts, out of 8000000 for 9000
  376 hyphenation exceptions out of 8191
  38i,7n,28p,245b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on ClaseExamen.pdf (2 pages, 246417 bytes).
+mf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
+Output written on ClaseExamen.pdf (2 pages, 238469 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
