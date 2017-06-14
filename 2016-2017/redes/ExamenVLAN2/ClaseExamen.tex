@@ -1,0 +1,25 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Planificacion y administracion de redes.}
+\pregunta{Observa la red de la figura. Escribe los comandos necesarios para crear VLANs y los subinterfaces asociados de acuerdo a los requisitos siguientes:
+\begin{itemize}
+	\item{PC1 y PC7 están en la VLAN 10. Esta VLAN tendrá la IP 10.10.0.0 con máscara 255.255.0.0}
+	\item{PC0, PC2 y PC6 están en la VLAN 20.Esta VLAN tendrá la IP 10.20.0.0 con máscara 255.255.0.0}
+	\item{PC5, PC3 y PC4 están en la VLAN 30. Esta VLAN tendrá la IP 10.30.0.0 con máscara 255.255.0.0}
+	\item{Los servidores SMTP y HTTP están en su propia VLAN, la 100.Esta VLAN tendrá la IP 10.100.0.0 con máscara 255.255.0.0}
+\end{itemize}
+
+.}{6.5}
+
+\pregunta{Asigna las direcciones IP, máscaras y gateways que sean necesarios para que todo funcione. Crea también los comandos necesarios para conseguir lo siguiente:
+\begin{itemize}
+\item{Se prohíbe el acceso desde el interior a cualquier servidor HTTP que haya en  la red 192.168.10.0/24 .}
+\item{Las redes 10.14.0.0/16 y la 10.161.0.0/16 pueden hacer ping  al SMTP.}
+\item{Se permite el acceso desde el interior a la red 172.16.0.0/16}
+\end{itemize}
+.}{3.5}
+\begin{figure}
+\includegraphics[scale=0.4]{examen-img/vlan.png}
+\end{figure}
+\end{document}

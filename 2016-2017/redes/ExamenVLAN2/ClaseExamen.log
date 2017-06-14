@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2017.6.6)  14 JUN 2017 12:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2017.6.6)  9 JUN 2017 12:24
 entering extended mode
 **ClaseExamen.tex
-
-(F:\Oscar\repos\p_tests\2016-2017\marcas\recuperacion-incluye-dtd-xslt\ClaseExa
-men.tex
+(F:\Oscar\repos\p_tests\2016-2017\redes\ExamenVLAN2\ClaseExamen.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,9 +13,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-
-(F:\Oscar\repos\p_tests\2016-2017\marcas\recuperacion-incluye-dtd-xslt\examen.c
-ls
+(F:\Oscar\repos\p_tests\2016-2017\redes\ExamenVLAN2\examen.cls
 Document Class: examen 2011/12/05
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
@@ -129,8 +125,7 @@ Package: graphpap 1994/08/09 v1.0c Standard LaTeX graphpap package (LL)
 \c@numpregunta=\count91
 \puntos=\skip43
 )
-(F:\Oscar\repos\p_tests\2016-2017\marcas\recuperacion-incluye-dtd-xslt\ClaseExa
-men.aux)
+(F:\Oscar\repos\p_tests\2016-2017\redes\ExamenVLAN2\ClaseExamen.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -164,34 +159,44 @@ File: examen-img/Escudo.png Graphic file (type png)
 Package pdftex.def Info: examen-img/Escudo.png used on input line 4.
 (pdftex.def)             Requested size: 34.5021pt x 40.99265pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
+(Font)              <7> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 6.
- [1
+(Font)              <5> on input line 13.
+
+<examen-img/vlan.png, id=2, 1075.01625pt x 551.05875pt>
+File: examen-img/vlan.png Graphic file (type png)
+
+<use examen-img/vlan.png>
+Package pdftex.def Info: examen-img/vlan.png used on input line 23.
+(pdftex.def)             Requested size: 429.99889pt x 220.41959pt.
+
+Overfull \hbox (84.99889pt too wide) in paragraph at lines 23--24
+[][] 
+ []
+
+[1
 
 {C:/Users/Alumno/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <F:/Oscar/r
-epos/p_tests/2016-2017/marcas/recuperacion-incluye-dtd-xslt/examen-img/Escudo.p
-ng>] [2]
-(F:\Oscar\repos\p_tests\2016-2017\marcas\recuperacion-incluye-dtd-xslt\ClaseExa
-men.aux) ) 
+epos/p_tests/2016-2017/redes/ExamenVLAN2/examen-img/Escudo.png>] [2 <F:/Oscar/r
+epos/p_tests/2016-2017/redes/ExamenVLAN2/examen-img/vlan.png>]
+(F:\Oscar\repos\p_tests\2016-2017\redes\ExamenVLAN2\ClaseExamen.aux) ) 
 Here is how much of TeX's memory you used:
- 2057 strings out of 493921
- 27401 string characters out of 3144874
+ 2061 strings out of 493921
+ 27320 string characters out of 3144874
  86158 words of memory out of 3000000
- 5364 multiletter control sequences out of 15000+200000
- 4754 words of font info for 18 fonts, out of 3000000 for 9000
+ 5368 multiletter control sequences out of 15000+200000
+ 4586 words of font info for 17 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,6n,29p,301b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmc
-sc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.
-pfb>
-Output written on ClaseExamen.pdf (2 pages, 239161 bytes).
+ 34i,7n,29p,245b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
+Output written on ClaseExamen.pdf (2 pages, 291612 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
