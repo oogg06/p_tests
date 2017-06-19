@@ -1,0 +1,28 @@
+public class ProcesadorSAX extends DefaultHandler{
+  @Override
+  public void startElement(
+      String ns, String nombreCuandoHayNS, String nombreCuandoNoHayNS,
+      Attributes atributos) throws SAXException
+  {
+    
+  } //Fin de startElement
+ 
+  @Override
+  public void endElement(String ns, String nombreCuandoHayNS,
+      String nombreCuandoNoHayNS) throws SAXException
+  {
+  
+  } //Fin de endElement
+  public void characters (char[] letras, int inicio, int final){
+  
+  } //Fin de characters
+  public static void main(String[] args) throws ParserConfigurationException,
+      SAXException, IOException {
+    SAXParserFactory fabrica;
+    fabrica=SAXParserFactory.newInstance();
+    SAXParser parser=fabrica.newSAXParser();
+    XMLReader lector=parser.getXMLReader();
+    lector.setContentHandler(new ProcesadorSAX());
+    lector.parse("archivo.xml");
+  } //Fin de main
+} //Fin de la clase

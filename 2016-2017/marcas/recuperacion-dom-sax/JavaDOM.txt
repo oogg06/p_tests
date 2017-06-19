@@ -1,0 +1,20 @@
+public class ProcesadorXML {
+        public Node extraerRaiz(String nombreArchivo){
+                DocumentBuilderFactory fabrica;
+                DocumentBuilder constructor;
+                Document documentoXML=null;
+                File fichero=new File(nombreArchivo);
+                fabrica=
+                        DocumentBuilderFactory.newInstance();
+                System.out.println("Procesando "+nombreArchivo);
+                try {
+                        constructor=
+                          fabrica.newDocumentBuilder();
+                        documentoXML=constructor.parse(fichero);
+                } catch (Exception e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                }
+                return documentoXML.getDocumentElement();
+        } //Fin de extraerRaiz
+} //Fin de ProcesadorXML
