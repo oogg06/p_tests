@@ -1,0 +1,80 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas y sistemas de gestión de información}
+\pregunta{
+Una empresa desea modelar un flujo que indique las novedades en su canal de ventas, por lo que desea ver como quedaría un archivo RSS que refleje dichas novedades.
+\begin{itemize}
+\item{La URL principal es http://acme.com y el canal de la empresa se llamará ``Novedades de ACME'' siendo su descripción ``Las más recientes novedades al servicio de nuestros clientes''}
+\item{Dentro de dicho canal se desea ver noticias de ejemplo}
+\begin{enumerate}
+	\item{La primera apunta a la URL http://acme.com/novedades1 su descripción es ``Disponible la nueva actualización de Android en los servidores de Google y réplicas autorizadas`` y el título ``Nueva versión de Android''}
+	\item{La segunda noticia tiene la URL http://acme.com/novedades2, su título es ``Fin de XP'' y la descripción es ``Finalizó el soporte de Microsoft para Windows XP''}
+\end{enumerate}
+
+\end{itemize}
+
+}{2.5}
+
+\break 
+\pregunta{Dado el archivo XML que se puede encontrar con el letrero FICHERO ORIGINAL, 
+crear una hoja de estilo XSLT que genere el HTML necesario para que se extraigan en forma de tabla todos los pales, usando una fila para cada pale y una columna para el nombre del producto que transportan, una columna para el peso y una para la cantidad}{3}
+\pregunta{Transformar el XML del pedido en el XML que se muestra al final. Para crear dicho fichero final se debe crear un XSLT que extraiga los elementos con un peso de 10.000 kg o más y los reformatee como sea necesario de forma que se obtenga el XML que aparece al final.}{4.5}		
+
+\break
+
+\begin{lstlisting}{language=xml}
+<!--FICHERO ORIGINAL-->
+<pedido>
+    <pale procedencia="ES">
+        <producto>Ordenadores</producto>
+        <cantidad>500</cantidad>
+        <preciounidad>699</preciounidad>
+        <peso unidad="toneladas">4.5</peso>
+    </pale>
+    <contenedor producto="routers">
+        <paisprocedencia>ES</paisprocedencia>
+        <descripcion cantidad="5000">
+            <peso unidad="tm">12</peso>
+        </descripcion>
+    </contenedor>
+    <contenedor producto="coches">
+        <paisprocedencia>FR</paisprocedencia>
+        <descripcion cantidad="25">
+            <peso unidad="kg">29000</peso>
+        </descripcion>
+    </contenedor>
+    <pale procedencia="ES">
+        <producto>Ropa</producto>
+        <cantidad>22000</cantidad>
+        <preciounidad>4.99</preciounidad>
+        <peso unidad="kg">8900</peso>
+    </pale>
+</pedido>
+
+
+\end{lstlisting}
+
+\break
+
+\begin{lstlisting}{language=xml}
+<!--Fichero que debe salir como resultado del ejercicio 3-->
+<pedido>
+    <elementospesados>
+        <contenedor paisprocedencia="ES">
+            <producto>routers</producto>
+            <peso>12000 kg</peso>
+            <cantidad>5000</cantidad>
+        </contenedor>
+        <contenedor paisprocedencia="FR">
+            <producto>coches</producto>
+            <peso>29000 kg</peso>
+            <cantidad>25</cantidad>
+        </contenedor>
+    </elementospesados>
+</pedido>
+
+\end{lstlisting}
+
+
+\end{document}

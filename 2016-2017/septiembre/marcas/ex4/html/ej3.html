@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Formularios</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+<form>
+    <fieldset>
+        <legend>Datos generales</legend>
+        <input type="radio" name="situacion" value="1gm" checked="checked">1CFGM
+        <input type="checkbox" name="contitulo[]" value="p">Primaria
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        Nombre<input type="text" name="nombre" value="Su nombre aqui">
+        <br/>
+        <input type="radio" name="situacion" value="2gm">2CFGM
+        <input type="checkbox" name="contitulo[]" value="e">ESO
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;
+        Ape.<input type="text" name="nombre" value="Sus apellidos aqui">
+        <br/>
+        <input type="radio" name="situacion" value="1gs">1CFGS
+        <input type="checkbox" name="contitulo[]" checked="checked" value="b">Bachillerato
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Usuario<input type="text" name="login" value="usuario">
+        <br/>
+        <input type="radio" name="situacion" value="2gs">2CFGS
+        <input type="checkbox" name="contitulo[]" value="o">Otros
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Contraseña<input type="password" name="contraseña" value="1234">
+        <br/>
+    </fieldset>
+    <fieldset>
+        <legend>Otros datos</legend>
+        <textarea rows="4">Describa brevemente su experiencia en el ámbito de la docencia</textarea>
+        <select multiple="true">
+            <option value="p">Magisterio</option>
+            <option value="i">Institutos</option>
+            <option value="eoi">Idiomas</option>
+            <option value="u">Universidad</option>
+            <option value="p">Centros de adultos</option>
+        </select>
+        <br/>
+        Ámbito<select name="Ambito">
+            <option value="H">Historia</option>
+            <option value="H">Geografía</option>
+            <option value="H">Matemáticas</option>
+            <option value="H">Ciencias</option>
+        </select>
+        
+    </fieldset>
+</form>
+
+
+</body>
+</html>

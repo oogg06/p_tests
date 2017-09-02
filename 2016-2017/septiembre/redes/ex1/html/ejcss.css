@@ -1,0 +1,18 @@
+table{
+    border: solid black 1px;
+    width:50%;
+    text-align:center;
+}
+.lenguaje{
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial Black;
+}
+.subrayado{
+    text-decoration: underline;
+}
+h1{
+    background-color: rgb(220, 220, 240);
+    text-align: center;
+    font-size: 48px;
+}

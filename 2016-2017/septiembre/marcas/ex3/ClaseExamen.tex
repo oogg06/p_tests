@@ -1,0 +1,30 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas y sistemas de gestión de información. \\Recuperación Javascript}
+
+\pregunta{Se ha creado el siguiente formulario para que un usuario pueda configurar algunos parámetros de un coche a su gusto y en función de esos parámetros indicar el precio de dicho coche. Crear una aplicación Javascript que permita hacer cumplir los siguiente requisitos:
+\begin{itemize}
+\item{El precio de los distintos elementos es: Sensor 450 euros, alerón 675 euros, GPS 560 euros, motor diesel 4500 euros y motor de gasolina 2800 euros }
+\item{Por problemas de fabricación no se puede combinar el motor de gasolina con el alerón}
+\item{No se pueden montar a la vez el sensor de párking y el alerón sea cual sea el resto de combinaciones}
+\end{itemize}
+}{10}
+\break
+\begin{verbatim}
+<form>
+<fieldset>
+  <legend>Completar estas opciones</legend>
+  <input type='checkbox' name='extras' value='sensor'> Sensor de parking<br/>
+  <input type='checkbox' name='extras' value='aleron'> Aleron deportivo   <br/>
+  <input type='checkbox' name='extras' value='gps'> GPS <br/>
+  <br/>
+  <input type='radio' name='motor' value='diesel'> Diesel <br/>
+  <input type='radio' name='motor' value='gasolina'> 1000 <br/>
+<textarea id="informe"></textarea>
+  <br/>
+</fieldset>
+
+</form>
+\end{verbatim}
+\end{document}

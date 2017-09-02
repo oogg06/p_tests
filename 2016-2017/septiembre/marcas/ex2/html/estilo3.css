@@ -1,0 +1,22 @@
+#cabecera, #publicidad, #relacionados, #pie{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 5px;
+}
+
+#cabecera{
+    float: left;
+    width:25%;
+}
+#publicidad{
+    float: right;
+    width: 25%;
+}
+#relacionados{
+    float: right;
+    width: 25%;
+}
+#pie{
+    clear: both;
+}

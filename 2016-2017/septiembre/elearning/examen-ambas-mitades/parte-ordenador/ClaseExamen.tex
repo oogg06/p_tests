@@ -1,0 +1,74 @@
+\documentclass{examen}
+\usepackage{listings}
+\begin{document}
+
+\modulo{Lenguajes de marcas -- PARTE ORDENADOR}
+
+\pregunta{Crea una página HTML que se modifique con CSS y que contenga los siguientes
+elementos
+\begin{itemize}
+\item{Dos encabezamientos h1 y dos encabezamientos h2. Modifica con CSS y el atributo
+{\tt class} su aspecto para que aparezcan escritos con un color distinto.}
+\item{Crea una lista numerada con 3 elementos. Modifica el tipo de letra del primero y el tercero usando {\tt id}}
+\item{Crea una tabla de 3 filas y 4 columnas. Dentro de cada celda puedes escribir cualquier cosa. Usando CSS y la técnica que prefieras modifica el fondo de las celdas de la columna que quieras}
+\end{itemize}
+}{2}
+\break
+\pregunta{Transformar el XML del pedido en el XML que se muestra al final. Para crear dicho fichero final se debe crear un XSLT que extraiga los elementos con un peso de 10.000 kg o más y los reformatee como sea necesario de forma que se obtenga el XML que aparece al final.}{3}		
+
+\break
+
+\begin{lstlisting}{language=xml}
+<!--FICHERO ORIGINAL-->
+<pedido>
+    <pale procedencia="ES">
+        <producto>Ordenadores</producto>
+        <cantidad>500</cantidad>
+        <preciounidad>699</preciounidad>
+        <peso unidad="toneladas">4.5</peso>
+    </pale>
+    <contenedor producto="routers">
+        <paisprocedencia>ES</paisprocedencia>
+        <descripcion cantidad="5000">
+            <peso unidad="tm">12</peso>
+        </descripcion>
+    </contenedor>
+    <contenedor producto="coches">
+        <paisprocedencia>FR</paisprocedencia>
+        <descripcion cantidad="25">
+            <peso unidad="kg">29000</peso>
+        </descripcion>
+    </contenedor>
+    <pale procedencia="ES">
+        <producto>Ropa</producto>
+        <cantidad>22000</cantidad>
+        <preciounidad>4.99</preciounidad>
+        <peso unidad="kg">8900</peso>
+    </pale>
+</pedido>
+
+
+\end{lstlisting}
+
+\break
+
+\begin{lstlisting}{language=xml}
+<!--Fichero que debe salir como resultado del ejercicio 3-->
+<pedido>
+    <elementospesados>
+        <contenedor paisprocedencia="ES">
+            <producto>routers</producto>
+            <peso>12000 kg</peso>
+            <cantidad>5000</cantidad>
+        </contenedor>
+        <contenedor paisprocedencia="FR">
+            <producto>coches</producto>
+            <peso>29000 kg</peso>
+            <cantidad>25</cantidad>
+        </contenedor>
+    </elementospesados>
+</pedido>
+
+\end{lstlisting}
+
+\end{document}

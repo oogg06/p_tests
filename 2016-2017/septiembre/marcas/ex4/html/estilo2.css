@@ -1,0 +1,34 @@
+#cabecera, #pie{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background: rgb(240, 230, 230);
+}
+
+#cabecera{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial;
+    height: 10%;
+}
+#texto{
+    position: absolute;
+    top;11%;
+    height: 20%;
+}
+#publicidad{
+    position: absolute;
+    top: 50%;
+    height: 10%;
+}
+#relacionados{
+    position: absolute;
+    top:65%;
+}
+#pie{
+    position: fixed;
+    width: 25%;
+    bottom: 0px;
+    right: 0px;
+    
+}

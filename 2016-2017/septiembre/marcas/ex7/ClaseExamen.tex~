@@ -1,0 +1,14 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas}
+\pregunta{Explica en qué consiste la consolidación como operación efectuada por un SGI}{1.5}
+\pregunta{¿En qué se diferencian los niveles estratégico y operativo en una estructura empresarial?}{1.5}
+\pregunta{¿En qué se diferencian un ERP de un CRM?}{1.5}
+\pregunta{Di todo lo que sepas sobre las operaciones fiscales que pueden efectuar un SGI}{1.5}
+\pregunta{Si en una base de datos MySQL llamada <<Ventas>> hay una tabla llamada <<Clientes>> deseamos extraer todos los datos en formato XML, ¿qué comando deberemos lanzar?}{1.5}
+\pregunta{¿Para qué sirve un sistema de construcción automatizada en un proyecto grande como la programación de un SGI?¿Qué significa que en un proyecto haya una dependencia?}{1}
+\pregunta{¿Para qué utiliza OpenBravo la biblioteca Hibernate?}{1}
+\pregunta{¿Qué problema plantea el multiproceso en un SGI?}{0.5}
+\pregunta{¿Qué es el {\it load-balancing}}{0.5}
+\end{document}

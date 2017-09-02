@@ -1,0 +1,25 @@
+div, header, footer{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+div#contenido{
+    border: none;
+}
+footer{
+    text-align: right;
+    font-size: small;
+}
+#publicidad{
+    float: left;
+    width: 25%;
+}
+#relacionados{
+    float: right;
+    width:25%;
+}
+#pie{
+    clear: both;
+}

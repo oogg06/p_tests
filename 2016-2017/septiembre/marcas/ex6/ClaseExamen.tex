@@ -1,0 +1,109 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas}
+
+\pregunta{Usando DOM procesar el fichero XML que se proporciona junto con este examen y averiguar dos cosas:
+a) cuantos bonos hay cuya ciudad de procedencia sea Tokio y su valor deseado sea menor de 10.000 y b) cuantos futuros hay en total. El programa deberá decirnos cual de las dos cantidades es mayor. Puedes utilizar la clase Java proporcionada y añadirle los métodos o código que desees. No hace falta que copies el código que ya se te proporciona.}{6.5}
+
+\pregunta{Usando SAX procesar el mismo fichero y comprobar si hay alguna letra cuyo precio sea mayor de 25.000 y tenga como ciudad de procedencia Berlñin. Puedes utilizar la clase Java proporcionada y añadirle los métodos o código que desees. No hace falta que copies el código que ya se te proporciona.}{3.5}
+
+\break 
+\begin{verbatim}
+public class ProcesadorSAX extends DefaultHandler{
+  @Override
+  public void startElement(
+      String ns, String nombreCuandoHayNS, String nombreCuandoNoHayNS,
+      Attributes atributos) throws SAXException
+  {
+    
+  } //Fin de startElement
+ 
+  @Override
+  public void endElement(String ns, String nombreCuandoHayNS,
+      String nombreCuandoNoHayNS) throws SAXException
+  {
+  
+  } //Fin de endElement
+  public void characters (char[] letras, int inicio, int final){
+  
+  } //Fin de characters
+  public static void main(String[] args) throws ParserConfigurationException,
+      SAXException, IOException {
+    SAXParserFactory fabrica;
+    fabrica=SAXParserFactory.newInstance();
+    SAXParser parser=fabrica.newSAXParser();
+    XMLReader lector=parser.getXMLReader();
+    lector.setContentHandler(new ProcesadorSAX());
+    lector.parse("archivo.xml");
+  } //Fin de main
+} //Fin de la clase
+
+\end{verbatim}
+
+\break
+
+\begin{verbatim}
+<listado>
+	<futuro precio="11.28">
+                <producto>Cafe</producto>
+                <mercado>América Latina</mercado>
+                <ciudad_procedencia>
+                        <madrid/>
+                </ciudad_procedencia>
+        </futuro>
+        <divisa precio="183">
+                <nombre_divisa>Libra esterlina</nombre_divisa>
+                <tipo_de_cambio>2.7:1 euros</tipo_de_cambio>
+                <tipo_de_cambio>1:0.87 dólares</tipo_de_cambio>
+                <ciudad_procedencia>
+                        <madrid/>
+                </ciudad_procedencia>
+        </divisa>
+
+        <bono precio="10000" estable="si">
+                <pais_de_procedencia>
+                        España
+                </pais_de_procedencia>
+                <valor_deseado>9980</valor_deseado>
+                <valor_minimo>9950</valor_minimo>
+                <valor_maximo>10020</valor_maximo>
+                <ciudad_procedencia>
+                        <tokio/>
+                </ciudad_procedencia>
+        </bono>
+        <letra precio="45020">
+                <tipo_de_interes>4.54%</tipo_de_interes>
+                <pais_emisor>
+                        <espania/>
+                </pais_emisor>
+                <ciudad_procedencia>
+                        <madrid/>
+                </ciudad_procedencia>
+        </letra>
+</listado>
+\end{verbatim}
+\break
+\begin{verbatim}
+public class ProcesadorXML {
+        public Node extraerRaiz(String nombreArchivo){
+                DocumentBuilderFactory fabrica;
+                DocumentBuilder constructor;
+                Document documentoXML=null;
+                File fichero=new File(nombreArchivo);
+                fabrica=
+                        DocumentBuilderFactory.newInstance();
+                System.out.println("Procesando "+nombreArchivo);
+                try {
+                        constructor=
+                          fabrica.newDocumentBuilder();
+                        documentoXML=constructor.parse(fichero);
+                } catch (Exception e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                }
+                return documentoXML.getDocumentElement();
+        } //Fin de extraerRaiz
+} //Fin de ProcesadorXML
+\end{verbatim}
+\end{document}
