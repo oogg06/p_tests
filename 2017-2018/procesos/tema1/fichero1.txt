@@ -1,0 +1,1 @@
+Desde el comienzo Java fue creado como una alternativa comoda a C++. Sin embargo Java tiene sus propias caracteristicas como lenguaje.

@@ -1,0 +1,1 @@
+Java usa un mecanismo de referencias integrado en el lenguaje. Sin embargo algunos tipos primitivos utilizan un mecanismo basado en tipos valor.

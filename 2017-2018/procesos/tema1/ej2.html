@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+<form>
+    <fieldset>
+        <legend>Opciones HW</legend>
+        Usuario:<input type="text" name="usuario"><br/>
+        Password:<input type="password" name="password"><br/>
+        <input type="radio" name="procesador">Intel <br/>
+        <input type="radio" name="procesador">AMD <br/>
+        <br/>
+        <input type="checkbox">Con aceleradora gráfica<br/>
+        <input type="checkbox">Con monitor LED de 21 pulgadas<br/>
+        <br/>
+        <fieldset>
+            <legend>Otros</legend>
+            Elija tiendas en las que buscar<br/>
+            <select name="tienda" multiple>
+                <option value="uk">Buscar en almacén de UK.</option>
+                <option value="de">Buscar en almacén de Alemania.</option>
+                <option value="us">Buscar en almacén de EEUU.</option>
+            </select>
+            
+        </fieldset>
+    </fieldset>
+
+</form>
+</body>
+</html>
