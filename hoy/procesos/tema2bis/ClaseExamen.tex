@@ -1,0 +1,41 @@
+\documentclass[a4paper, 12pt]{examen}
+\usepackage{inputenc}
+\begin{document}
+
+%\modulo{Prog. multim. y de dispositivos moviles}
+%\modulo{Planif. y adm. de redes}
+\modulo{Prog. de servicios y procesos}
+%\modulo{Lenguajes de marcas}
+\pregunta{Se desea programar un gestor de memoria que sea capaz de almacenar números enteros y que pueda ser utilizado por procesos que trabajen con concurrencia. Para ello se han definido los siguientes requisitos:
+\begin{itemize}
+\item{El gestor de memoria puede almacenar hasta 5 números enteros. También debe poder permitir leer un número almacenado en una posición, y liberar memoria así que debe tener métodos {\tt almacenar}, {\tt liberar} y {\tt leer.}}
+
+\item{Cuando un proceso quiere almacenar algo puede que haya una posición libre o puede que no. El gestor de memoria devolverá un {\tt int} que puede ser una posición de 0 a 4 indicando que se ha podido almacenar algo o un -1 para indicar que no quedaba memoria libre.}
+
+\item {El gestor de memoria debe llevar el control de qué posiciones están ocupadas y cuales no. }
+
+\item{Cuando un proceso quiere leer algo del gestor de memoria debe pasar la posición de la que desea leer. Evidentemente, una posición de memoria que esté libre podrá ser reusada por otro proceso.}
+\item{Cuando un proceso quiere liberar memoria debe pasar la posición que desea liberar.}
+
+\end{itemize}
+
+
+}{10}
+
+En cuanto a la simulación se debe tener en cuenta lo siguiente:
+
+\begin{itemize}
+
+\item {Habrá 1000 procesos que usarán el mismo gestor de memoria. Cada proceso hará 100 intentos de escribir un número al azar en el gestor de memoria. }
+
+\item {Si tras esos 100 intentos no lo consigue termina. }
+
+\item {Si en algún momento consigue almacenar su número espera un tiempo al azar entre 100 y 500 milisegundos comprueba si en el gestor está el mismo número que había almacenado, libera esa posición de memoria y termina.}
+
+\item{Se permite el uso de funciones de biblioteca que ya se tengan en el ordenador (como por ejemplo la biblioteca Utilidades creada en clase que permite elegir números al azar o esperar tiempos al azar) pero no se permite el uso de Internet}
+
+\item{Para acelerar las pruebas puede ser recomendable usar al principio menos procesos, con menos intentos y con menos tiempo de espera entre intentos. Para facilitar las cosas puede ser útil el usar constantes que nos permitan cambiar estas cantidades con facilidad.}
+\end{itemize}
+Escribir el programa Java que haga la simulación de manera correcta.
+
+\end{document}
