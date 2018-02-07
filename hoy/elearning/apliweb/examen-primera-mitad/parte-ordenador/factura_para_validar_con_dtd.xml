@@ -1,0 +1,13 @@
+<!--Ejemplo de fichero-->
+<listafacturas>
+  <factura fecha="11-2-2017">
+        <emisor cif="123">
+          <nombre>ACME</nombre>
+        </emisor>
+        <pagador cif="234">
+          <nombre>ACME Inc</nombre>
+          <volumenventas>2000</volumenventas>
+        </pagador>
+        <importe>2500</importe>
+  </factura>
+</listafacturas>
