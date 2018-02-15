@@ -10,8 +10,9 @@
 \item{El segundo control es una lista desplegable y el usuario puede seleccionar dos opciones llamadas ``sumar'' y ``restar''.}
 \item{El tercer control se llama ``num2'' y siempre es un número entero}
 \end{itemize}
-Crear una aplicación que en función de la operación que elija el usuario muestre la suma o la resta de los dos números.
-}{5}
+Crear una aplicación que en función de la operación que elija el usuario muestre la suma o la resta de los dos números. Observa que hay
+un boton que al ser pulsado llama a la función {\tt calcular()}
+}{3.5}
 
 \begin{verbatim}
 <form>
@@ -21,6 +22,7 @@ Crear una aplicación que en función de la operación que elija el usuario muestre
         <option value="restar">-</option>
     </select>
     <input type="text" id="num2">
+	<input type="submit" onclick="calcular();return false;">
 </form>
 
 \end{verbatim}
@@ -36,8 +38,10 @@ La editorial anterior desea que la aplicación anterior implemente ciertos compor
 \begin{itemize}
 \item{ Cuando el cliente marque revistas o periódicos la aplicación mostrará en el recuadro las publicaciones que el usuario compra así como el precio total a pagar.}
 \item{ Si se marca un periódico cualquiera y una revista el precio total se reduce al 90\%.}
+\item{ Observa que hay
+un boton que al ser pulsado llama a la función {\tt calcular()}}
 \end{itemize}
-}{5}
+}{6.5}
 
 \begin{figure}[h]
 \centering
@@ -71,6 +75,7 @@ La editorial anterior desea que la aplicación anterior implemente ciertos compor
 <input type="checkbox" name="periodicos[]" id="econoticias" value="econoticias">
 <label for="econoticias">Econoticias</label>
 
-Precio:<input type="text" id="precio_total">
+Precio:<input type="text" id="precio_total"> 
+<input type="submit" onclick="calcular();return false;">
 \end{verbatim}
 \end{document}
