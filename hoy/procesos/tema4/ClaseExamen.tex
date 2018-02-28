@@ -1,0 +1,24 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Programacion de servicios y procesos}
+
+En los siguientes ejercicios vas a tener que trabajar con claves públicas. Recuerda lo siguiente:
+
+\begin{itemize}
+\item{Vas a tener que enviar varias cosas al profesor: los ejercicios del examen, tu almacén de claves, la clave de dicho almacén y tu certificado.}
+\item{Si algo no te va bien y decides borrar el almacén de claves {\bf vas a tener que volver a generar tu certificado}}
+\end{itemize}
+\pregunta{Fabrica una pareja de claves indicando tu información personal (nombre completo, nombre del instituto, JCCM, Ciudad Real, Ciudad Real, ES) y exporta tu certificado. En el nombre de fichero debe aparecer tu nombre y apellidos (por ejemplo {\tt Certificado-Jose-Sanchez.cer}).
+Crea un programa que actúe como servidor multihilo que trabaje de la manera siguiente:
+\begin{itemize}
+\item {El servidor leerá una línea que le enviará el cliente y que contendrá texto.}
+\item {El servidor leerá una línea que contiene una sola letra.}
+\item {El servidor contará cuantas vocales hay en la línea (A, E, I, O, U, a, e, i, o, u).}
+\item {El servidor enviará al cliente una línea con dicho número.}
+\item {El servidor enviará una línea con el texto ``Realizado por:'' junto con tu nombre, apellidos y DNI}
+\item{En pocas palabras el servidor recibe dos líneas y luego envía dos líneas. No olvides usar {\tt println()} y {\tt flush()}}
+\end{itemize}
+}{7}
+\pregunta{Crea una clase Java llamada Saludo en el que el main imprima tu nombre y apellidos. Fabrica un JAR, fírmalo y envíaselo al profesor (quizás te interese verificar la firma antes de enviarlo). }{3}
+\end{document}
