@@ -1,0 +1,39 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas}
+
+\pregunta{Elaborar un esquema XML que permita validar un fichero XML que se atenga a las reglas siguientes:}{6.5}
+\begin{itemize}
+
+\item{El elemento raíz se llama {\tt productos}. Dentro de él debe haber 1 o más elementos {\tt monitor} o {\tt cpu}}
+\begin{itemize}
+\item{Un {\tt monitor} lleva dentro 3 cosas: un elemento {\tt resolución} (obligatorio y contiene cadenas), un elemento {\tt peso} (obligatorio, contiene positivos, y un elemento {\tt enstock} (optativo, siempre está vacío)}.
+\item{La {\tt resolución} lleva siempre dos atributos obligatorios {\tt ancho} y {\tt alto} que contienen positivos. Dentro de la etiqueta {\tt resolución} siempre hay una cadena de texto}
+\end{itemize}
+\item{ Una {\tt CPU } lleva dos cosas dentro: }
+\begin{itemize}
+\item {Un elemento {\tt tarjetagrafica} que debe llevar dentro siempre uno de estos 3 valores: Nvidia, 3dfx o AMD}
+\item{Un elemento {\tt procesador } que lleva dentro una etiqueta. PUEDE llevar un atributo {\tt codigo} que siempre tiene una estructura definida por 3 mayúsculas, seguidas de un guión, seguidas de 3 números.}
+\end{itemize}
+\end{itemize}
+
+\break
+
+\pregunta{Crear una DTD que permita validar un fichero XML con las mismas reglas indicadas anteriormente}{3.5}
+
+\begin{verbatim}
+<!--Ejemplo de fichero para los ejercicios-->
+<productos>
+    <monitor>
+        <resolucion ancho="1920" alto="1600">FullHD</resolucion>
+        <peso>20</peso>
+        <enstock/>
+    </monitor>
+    <cpu>
+        <grafica>Nvidia</grafica>
+        <procesador codigo="ABC-123">Intel</procesador>
+    </cpu>
+</productos>
+\end{verbatim}
+\end{document}
