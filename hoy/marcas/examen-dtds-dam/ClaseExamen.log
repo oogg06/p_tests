@@ -209,10 +209,10 @@ LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 2615 strings out of 494891
- 35907 string characters out of 6179040
- 100730 words of memory out of 5000000
- 5891 multiletter control sequences out of 15000+600000
+ 2616 strings out of 494891
+ 35915 string characters out of 6179040
+ 99730 words of memory out of 5000000
+ 5892 multiletter control sequences out of 15000+600000
  4754 words of font info for 18 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  38i,6n,32p,253b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -222,7 +222,7 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on ClaseExamen.pdf (2 pages, 233037 bytes).
+Output written on ClaseExamen.pdf (2 pages, 234820 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream

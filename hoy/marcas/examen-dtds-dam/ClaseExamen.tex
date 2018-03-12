@@ -1,0 +1,40 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas}
+
+\pregunta{Elaborar un XML Schema que permita validar un fichero XML como el mostrado al final y que se atenga a las reglas siguientes:}{6.5}
+\begin{itemize}
+\item{    El elemento raíz se llama ``listaarticulos''}
+\item{    Dentro de él puede haber uno o más elementos ``articulo''. Todo artículo tiene siempre un atributo código formado por 3 o 4 cifras seguidas de 4 letras.}
+\item{  Dentro de un artículo hay estos elementos: ``peso'' (que es optativo), , ``descripcion'', ``fechaentrega'' y un cuarto elemento ``pagado'' que contiene dentro una cadena indicando la situación del pago.}
+\item{   El elemento ``peso'' puede o no tener un atributo llamado ``unidad''. Dicha unidad siempre es ``g'', ``kg'' o ``ton''. Dentro del peso hay un número que puede tener decimales y que siempre es mayor que 0.}
+\item{La descripción siempre es un texto.}
+\item{La fecha siempre tiene la estructura AAAA-MM-DD, siendo AAAA el año (siempre con cuatro cifras), MM el mes (siempre dos cifras, por ejemplo 03 o 10) y DD el dia (siempre dos cifras, por ejemplo 01 o 13).}
+
+\end{itemize}
+
+\break
+
+\pregunta{Crear una DTD que permita validar un fichero XML como el mostrado al final y para el cual se han definido las mismas reglas que para el ejercicio anterior.}{3.5}
+
+
+
+\begin{verbatim}
+<listaarticulos>
+    <articulo codigo="123ABCD">
+        <peso unidad="kg">300</peso>
+        <descripcion>Articulo AAA</descripcion>
+        <fechaentrega>2020-02-19</fechaentrega>
+        <pagado/>
+    </articulo>
+    <articulo codigo="5678XYZ">
+        <!--No tiene peso-->
+        <descripcion>Articulo ABC</descripcion>
+        <fechaentrega>2021-11-23</fechaentrega>
+        <nopagado/>
+    </articulo>
+</listaarticulos>
+\end{verbatim}
+\end{document}
+

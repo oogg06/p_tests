@@ -1,0 +1,15 @@
+Comparativa XML/HTML
+
+
+XML Es un perfil de SGML.
+    Especifica cómo deben definirse conjuntos de etiquetas aplicables a un tipo de documento.
+    Modelo de hiperenlaces complejo.	
+    El navegador es una plataforma para el desarrollo de aplicaciones.
+    Fin de la guerra de los navegadores y etiquetas propietarias.
+
+HTML
+Es una aplicación de SGML.
+Aplica un conjunto limitado de etiquetas sobre un único tipo de documento.
+Modelo de hiperenlaces simple.
+El navegador es un visor de páginas.
+El problema de la 'no compatibilidad' y las diferencias entre navegadores ha alcanzado un punto en el que la solución es difícil
