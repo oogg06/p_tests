@@ -1,0 +1,32 @@
+\documentclass[a4paper, 12pt]{examen}
+\usepackage{inputenc}
+\begin{document}
+
+%\modulo{Prog. multim. y de dispositivos moviles}
+%\modulo{Planif. y adm. de redes}
+\modulo{Prog. de servicios y procesos}
+%\modulo{Lenguajes de marcas}
+
+
+\pregunta{ Un programador necesita una herramienta que pueda buscar palabras
+en ficheros. Sin embargo, el rendimiento de las herramientas que tiene es muy bajo, por
+lo que desea crear la suya propia con capacidades multiproceso. Para ello, se ha marcado los siguientes requisitos: }{10}
+\begin{itemize}
+\item{La herramienta recibe diversos parámetros: primero recibe un parámetro que puede ser {\tt ascendente} o {\tt descendente} y despues puede recibir muchos nombres de fichero. Se asume que siempre nos pasarán como mínimo un nombre de fichero por lo que {\em NO HACE FALTA COMPROBAR ERRORES RELATIVOS A QUE HAYA 0 NOMBRES DE FICHERO}.}
+\item{El programa creará tantos procesos hijo como ficheros tenga que procesar. Un hijo recibe el parámetro {\tt ascendente} o {\tt descendente} y un solo nombre  de fichero y ordena las líneas de ese fichero. Las líneas se almacenarán en un fichero cuyo nombre el mismo nombre que se le pasó pero con la palabra {\tt Resultado} delante.}
+
+
+\end{itemize}
+
+
+\break
+Al terminar el proyecto, se deberá generar un ZIP (no RAR) con todo el código fuente de la aplicación y entregárselo al profesor.
+
+Para facilitar las pruebas, se adjuntan cuatro ficheros con los nombres {\tt fichero1.txt}, {\tt fichero2.txt}, {\tt fichero3.txt} y {\tt fichero4.txt}
+
+
+El programador desea simplificarse al máximo la ejecución por lo que {\em TODO EL CÓDIGO DE LA APLICACIÓN IRÁ EN UN SOLO PROYECTO}. Si necesita alguna clase adicional la puede copiar y pegar a un fichero nuevo del proyecto.
+
+
+
+\end{document}
