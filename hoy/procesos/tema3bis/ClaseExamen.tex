@@ -1,0 +1,23 @@
+\documentclass[a4paper, 12pt]{examen}
+
+\begin{document}
+
+%\modulo{Prog. multim. y de dispositivos moviles}
+%\modulo{Planif. y adm. de redes}
+\modulo{Prog. de servicios y procesos}
+%\modulo{Lenguajes de marcas}
+
+
+
+
+\pregunta{Una empresa necesita una infraestructura basada en servicios que permita transformar la información de una manera simple por lo que ha pensado en desarrollar una aplicación que permita transformar líneas de la manera siguiente:
+
+\begin{itemize}
+\item{En primer lugar habrá unos emisores de información que enviarán líneas como por ejemplo ``Hola Mundo 1234''.}
+
+\item{En segundo lugar debe haber unos intermediarios que reciban líneas, las transformen y las reenvien a otros sitios. Por el momento habrá intermediarios de dos tipos. Un tipo de intermediarios tomarán las líneas y reemplazarán las mayúsculas por minúsculas y al revés.Así, si un intermediario recibe ``Hola Mundo 1234'' deberá generar ``hOLA mUNDO 1234''. El segundo tipo de intermediario tomará líneas y reemplazará todos los números por un signo +. Así, un intermediario que reciba ``Hola Mundo 1234'' deberá generar ``Hola Mundo ++++''.}
+
+\item{En tercer lugar los receptores de información se limitarán a recibir líneas y mostrarlas en pantalla.´}
+\end{itemize}
+Crear un programa tenga un emisor que envíe 5 líneas, las reenvíe a un intermediario del tipo 1. Hacer despues que el intermediario del tipo 1 reenvíe su resultado a un intermediario de tipo 2 y que este ultimo lo reenvíe a un receptor. Así, si el emisor envía ``Hola Mundo 1234'', el resultado final que imprima en pantalla el receptor debe ser ``hOLA mUNDO ++++''.}{10}
+\end{document}

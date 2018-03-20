@@ -1,0 +1,16 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Programacion de servicios y procesos}
+
+\pregunta{Fabrica una pareja de claves indicando tu información personal (nombre completo, nombre del instituto, JCCM, Ciudad Real, Ciudad Real, ES) y exporta tu certificado a la carpeta compartida. En el nombre de fichero debe aparecer tu nombre y apellidos (por ejemplo {\tt Certificado-Jose-Sanchez.cer}.
+Crea un programa que actúe como servidor multihilo que trabaje de la manera siguiente:
+\begin{itemize}
+\item {El servidor leerá una línea que le enviará el cliente que contendrá texto.}
+\item {El servidor leerá una línea que contiene una sola letra.}
+\item {El servidor contará el número de veces que la letra aparece en la linea enviada en primer lugar.}
+\item {El servidor enviará al cliente una línea con dicho número.}
+\item {El servidor enviará una línea con el texto ``Realizado por:'' junto con tu nombre, apellidos y DNI}
+\end{itemize}
+}{10}
+\end{document}
