@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+        <html>
+            <head><title>Resultado</title></head>
+            <body>
+                <h1>Resultados</h1>
+                <table border='1'>
+                    <tr>
+                        <td>Precio</td><td>RAM</td>
+                    </tr>
+                    <xsl:for-each select="pedido/portatiles/portatil">
+                        <tr>
+                            <td><xsl:value-of select="precio"/> euros</td>
+                            <td><xsl:value-of select="ram"/> <xsl:value-of select="ram/@unidad"/></td>
+                        </tr>
+                    </xsl:for-each>
+                    <xsl:for-each select="pedido/tablets/tablet">
+                        <tr>
+                            <td><xsl:value-of select="precio"/> euros</td>
+                            <td><xsl:value-of select="caracteristicas/memoria"/>
+                            <xsl:value-of select="caracteristicas/memoria/@medida"/></td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>

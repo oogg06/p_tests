@@ -1,0 +1,111 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas y sistemas de gestión de información}
+\pregunta{
+Una empresa desea modelar un flujo que indique las novedades en su canal de ventas, por lo que desea ver como quedaría un archivo RSS que refleje dichas novedades.
+\begin{itemize}
+\item{La URL principal es http://acme.com y el canal de la empresa se llamará ``Novedades de ACME'' siendo su descripción ``Las más recientes novedades al servicio de nuestros clientes''}
+\item{Dentro de dicho canal se desea ver noticias de ejemplo}
+\begin{enumerate}
+	\item{La primera apunta a la URL http://acme.com/novedades1 su descripción es ``Disponible la nueva actualización de Android en los servidores de Google y réplicas autorizadas`` y el título ``Nueva versión de Android''}
+	\item{La segunda noticia tiene la URL http://acme.com/novedades2, su título es ``Fin de XP'' y la descripción es ``Finalizó el soporte de Microsoft para Windows XP''}
+\end{enumerate}
+
+\end{itemize}
+
+}{1}
+
+
+\pregunta{Dado el fichero de inventario que se puede encontrar con el comentario ``Fichero de inventario para consultas XPath'' resolver las siguientes consultas:
+\begin{itemize}
+\item{Extraer el nombre (sin etiquetas) de los productos que lleven el peso en gramos.}
+\item{Extraer el peso de los productos (sin etiquetas) cuyo codigo sea ``DEZ-138'' o tengan la unidad del peso en gramos}
+\end{itemize}
+}{2.5}
+
+\pregunta{Dado el archivo XML con el comentario ``Fichero para transformar'', 
+crear una hoja de estilo XSLT que lo transforme el fichero de resultado que se muestra con el comentario ``Fichero que debe salir como resultado del XSLT''. Observar que en el resultado:
+hay dos sublistados: uno para grandes clientes, con {\tt ventastotales} mayores de 100.000 sin importar la moneda, y otro sublistado para clientes con menos de 100.000.
+}{6.5}
+
+
+
+\break 
+\begin{lstlisting}{language=xml}
+<!--Fichero para transformar-->
+<clientes>
+    <cliente>
+        <ventastotales moneda="euro">134000</ventastotales>
+        <nombre pais="US">
+            <nombrepila>Bob</nombrepila>
+            <apellido1>Smith</apellido1>
+        </nombre>
+    </cliente>
+    <cliente>
+        <ventastotales moneda="dolar">29000</ventastotales>
+        <nombre pais="US">
+            <nombrepila>Alice</nombrepila>
+            <apellido1>Rogers</apellido1>
+        </nombre>
+    </cliente>
+    <cliente>
+        <ventastotales moneda="euro">51500</ventastotales>
+        <nombre pais="ES">
+            <nombrepila>Carmen</nombrepila>
+            <apellido1>Garcia</apellido1>
+        </nombre>
+    </cliente>
+</clientes>
+\end{lstlisting}
+
+\break
+
+\begin{lstlisting}{language=xml}
+<!--Fichero que debe salir como resultado del XSLT-->
+<listado>
+    <grandesclientes>
+        <cliente nombre="Bob Smith">
+            <nacionalidad>US</nacionalidad>
+            <transacciones total="134000" moneda="euro"/>
+        </cliente>
+    </grandesclientes>
+    <pequenosclientes>
+        <cliente nombre="Alice Rogers">
+            <nacionalidad>US</nacionalidad>
+            <transacciones total="29000" moneda="dolar"/>
+        </cliente>
+        <cliente nombre="Carmen Garcia">
+            <nacionalidad>ES</nacionalidad>
+            <transacciones total="51500" moneda="euro"/>
+        </cliente>
+    </pequenosclientes>
+</listado>
+\end{lstlisting}
+
+
+
+\break
+
+
+\begin{lstlisting}{language=xml}
+<!--Fichero de inventario para consultas XPath-->
+<inventario>
+    <producto codigo="AAA-111">
+        <nombre>Teclado</nombre>
+        <peso unidad="g">480</peso>
+    </producto>
+    <producto codigo="ACD-981">
+        <nombre>Monitor</nombre>
+        <peso unidad="kg">1.8</peso>
+    </producto>
+    <producto codigo="DEZ-138">
+        <nombre>Raton</nombre>
+        <peso unidad="g">50</peso>
+    </producto>
+</inventario>
+
+\end{lstlisting}
+
+
+\end{document}
