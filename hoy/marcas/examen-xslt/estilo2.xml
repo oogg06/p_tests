@@ -1,0 +1,100 @@
+<<<<<<< HEAD
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <xsl:template match="/">
+                <html>
+                        <head>
+                                <title>Ejercicio 1</title>
+                        </head>
+                        <body>
+                                <h1>Resultado</h1>
+                                <table border="1">
+									<xsl:for-each select="pedido/portatiles/portatil">
+									<xsl:if test="ram &gt; 2">
+										<tr>
+											<td>
+												Precio:<xsl:value-of select="precio"/>
+											</td>
+											<td>
+												Memoria:<xsl:value-of select="ram"/>
+											</td>
+											<td>
+												Disco duro:<xsl:value-of select="disco"/>
+											</td>
+										</tr>
+									</xsl:if>
+									</xsl:for-each>
+									<xsl:for-each select="pedido/tablets/tablet">
+										<xsl:if test="caracteristicas/memoria &gt; 2">
+										<xsl:if test="caracteristicas/tamanio &gt; 7">
+											<tr>
+												<td>
+													<xsl:value-of select="plataforma"/>
+												</td>
+												<td>
+													<xsl:value-of select="caracteristicas/memoria"/>
+												</td>
+												<td>
+													<xsl:value-of select="caracteristicas/bateria"/>
+												</td>
+											</tr>
+										</xsl:if>
+										</xsl:if>
+									</xsl:for-each>
+									
+								</table>
+                                
+                        </body>
+                </html>
+        </xsl:template>
+=======
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <xsl:template match="/">
+                <html>
+                        <head>
+                                <title>Ejercicio 1</title>
+                        </head>
+                        <body>
+                                <h1>Resultado</h1>
+                                <table border="1">
+									<xsl:for-each select="pedido/portatiles/portatil">
+									<xsl:if test="ram &gt; 2">
+										<tr>
+											<td>
+												Precio:<xsl:value-of select="precio"/>
+											</td>
+											<td>
+												Memoria:<xsl:value-of select="ram"/>
+											</td>
+											<td>
+												Disco duro:<xsl:value-of select="disco"/>
+											</td>
+										</tr>
+									</xsl:if>
+									</xsl:for-each>
+									<xsl:for-each select="pedido/tablets/tablet">
+										<xsl:if test="caracteristicas/memoria &gt; 2">
+										<xsl:if test="caracteristicas/tamanio &gt; 7">
+											<tr>
+												<td>
+													<xsl:value-of select="plataforma"/>
+												</td>
+												<td>
+													<xsl:value-of select="caracteristicas/memoria"/>
+												</td>
+												<td>
+													<xsl:value-of select="caracteristicas/bateria"/>
+												</td>
+											</tr>
+										</xsl:if>
+										</xsl:if>
+									</xsl:for-each>
+									
+								</table>
+                                
+                        </body>
+                </html>
+        </xsl:template>
+>>>>>>> 953745e148a0b53f4faf663218383e63603cbcde
+</xsl:stylesheet>
