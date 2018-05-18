@@ -4,96 +4,61 @@
 
 \modulo{Lenguajes de marcas -- PARTE ORDENADOR}
 
-\pregunta{Unos programadores necesitan estructurar la información que intercambiarán los ficheros de sus aplicaciones para lo cual han determinado los requisitos siguientes que quieren plasmar en una DTD:}{2}
+\pregunta{Crea una página HTML que se modifique con CSS y que tenga un aspecto como el de la figura:
 \begin{itemize}
-\item{    La raíz se llama {\tt listafacturas}.}
-\item{    Dentro de la lista debe haber uno o más elementos {\tt factura}.}
-\item{    Las facturas tienen un atributo {\tt fecha} que es optativo.}
-\item{    Toda factura tiene un {\tt emisor}, que es un elemento obligatorio y que debe tener un atributo {\tt cif} que es obligatorio. Dentro de {\tt emisor} debe haber un elemento {\tt nombre}, que es obligatorio y puede o no haber un elemento {\tt volumenventas}.}
-\item{    Toda factura debe tener un elemento {\tt pagador}, el cual tiene exactamente la misma estructura que emisor.}
-\item{    Toda factura tiene un elemento {\tt importe}.}
-\item{    Puede verse más adelante un ejemplo de fichero XML.}
+\item{Se ha cambiado el tipo de letra de toda la página, en concreto se ha usado el tipo Helvetica.}
+\item{Observa que hay una lista en cuyos elementos han cambiado la viñeta que aparece.}
+\item{Hay una tabla con datos. Observa que la tabla tiene margen y que además ciertas filas tienen cambiado el color de fondo (puedes poner el que quieras)}
 \end{itemize}
 
-\break
+}{2}
+\begin{figure}[h]
+\includegraphics{examen-img/pagina.jpg}
+\end{figure}
 
-\pregunta{Dado el archivo XML que se puede encontrar al final, 
-crear una hoja de estilo XSLT que genere el HTML necesario para que se extraigan en forma de lista ordenada los datos (plataforma, cantidad de RAM y tamaño) de los tablets cuya RAM sea menor de 3 GB.
+\break
+\pregunta{Dado el archivo XML que se puede encontrar a continuación, 
+crear una hoja de estilo XSLT que transforme dicho archivo en el archivo XML que aparece al final.
 }{3}
 \begin{verbatim}
-<pedido><!--FICHERO ORIGINAL-->
-    <portatiles>
-        <portatil>
-            <peso>1430</peso>
-            <ram unidad="MB">4096</ram>
-            <disco tipo="ssd">500</disco>
-            <precio>499</precio>
-        </portatil>
-        <portatil>
-            <peso>1830</peso>
-            <ram unidad="GB">6</ram>
-            <disco tipo="ssd">1000</disco>
-            <precio>1199</precio>
-        </portatil>
-        <portatil>
-            <peso>1250</peso>
-            <ram unidad="MB">2048</ram>
-            <disco tipo="ssd">750</disco>
-            <precio>699</precio>
-        </portatil>
-    </portatiles>
-    <tablets>
-        <tablet>
-            <plataforma>Android</plataforma>
-            <caracteristicas>
-                <memoria medida="GB">2</memoria>
-                <tamanio medida="pulgadas">6</tamanio>
-                <bateria>LiPo</bateria>
-            </caracteristicas>
-        </tablet>
-        <tablet>
-            <plataforma>iOS</plataforma>
-            <caracteristicas>
-                <memoria medida="GB">4</memoria>
-                <tamanio medida="pulgadas">9</tamanio>
-                <bateria>LiIon</bateria>
-            </caracteristicas>
-        </tablet>
-    </tablets>
-</pedido>
+<inventario><!--Archivo original-->
+    <producto codigo="P1">
+        <peso unidad="kg">10</peso>
+        <nombre>Ordenador</nombre>
+        <lugar edificio="B">
+            <aula>10</aula>
+        </lugar>
+    </producto>
+    <producto codigo="P2">
+        <peso unidad='g'>500</peso>
+        <nombre>Switch</nombre>
+        <lugar edificio="A">
+            <aula>6</aula>
+        </lugar>
+    </producto>
+</inventario>
 \end{verbatim}
 \begin{verbatim}
 <!--Esto debe ser lo que devuelva el archivo XSLT-->
-<html>
-  <head>
-    <title>Ejercicio 1</title>
-  </head>
-  <body>
-    <h1>Resultado</h1>
-    <table border="1">
-      <tr>
-        <td>Precio:499</td>
-        <td>Memoria:4096</td>
-        <td>Disco duro:500</td>
-      </tr>
-      <tr>
-        <td>Precio:1199</td>
-        <td>Memoria:6</td>
-        <td>Disco duro:1000</td>
-      </tr>
-      <tr>
-        <td>Precio:699</td>
-        <td>Memoria:2048</td>
-        <td>Disco duro:750</td>
-      </tr>
-      <tr>
-        <td>iOS</td>
-        <td>4</td>
-        <td>LiIon</td>
-      </tr>
-    </table>
-  </body>
-</html>
+
+<datos>
+    <listacodigos>
+        <codigo>P1</codigo>
+        <codigo>P2</codigo>
+    </listacodigos>
+    <aulas>
+        <aula>B-10</aula>
+        <aula>A-6</aula>
+    </aulas>
+    <productos>
+        <producto>
+            Ordenador de 10kg
+        </producto>
+        <producto>
+            Switch de peso 500g
+        </producto>
+    </productos>
+</datos>
 
 \end{verbatim}
 
