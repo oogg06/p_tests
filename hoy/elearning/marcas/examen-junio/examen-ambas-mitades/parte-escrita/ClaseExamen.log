@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2017.6.6)  6 JUN 2017 12:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.19)  18 MAY 2018 10:19
 entering extended mode
 **ClaseExamen.tex
 
-(F:\Oscar\repos\p_tests\2016-2017\elearning\examen-ambas-mitades\parte-escrita\
-ClaseExamen.tex
+(F:\Oscar\repos\p_tests\hoy\elearning\marcas\examen-junio\examen-ambas-mitades\
+parte-escrita\ClaseExamen.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,8 +16,8 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-(F:\Oscar\repos\p_tests\2016-2017\elearning\examen-ambas-mitades\parte-escrita\
-examen.cls
+(F:\Oscar\repos\p_tests\hoy\elearning\marcas\examen-junio\examen-ambas-mitades\
+parte-escrita\examen.cls
 Document Class: examen 2011/12/05
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
@@ -102,7 +102,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(C:\Users\Alumno\AppData\Roaming\MiKTeX\2.9\tex\latex\fancybox\fancybox.sty
+(C:\Users\Profesor\AppData\Roaming\MiKTeX\2.9\tex\latex\fancybox\fancybox.sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
@@ -129,8 +129,13 @@ Package: graphpap 1994/08/09 v1.0c Standard LaTeX graphpap package (LL)
 \c@numpregunta=\count91
 \puntos=\skip43
 )
-(F:\Oscar\repos\p_tests\2016-2017\elearning\examen-ambas-mitades\parte-escrita\
-ClaseExamen.aux)
+
+LaTeX Warning: Unused global option(s):
+    [14pt].
+
+
+(F:\Oscar\repos\p_tests\hoy\elearning\marcas\examen-junio\examen-ambas-mitades\
+parte-escrita\ClaseExamen.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -144,7 +149,7 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 
-(C:\Users\Alumno\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(C:\Users\Profesor\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
 \scratchdimen=\dimen107
@@ -177,28 +182,29 @@ Package pdftex.def Info: examen-img/foto_formulario_11.png used on input line 8
 (pdftex.def)             Requested size: 236.88441pt x 311.16173pt.
  [1
 
-{C:/Users/Alumno/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <F:/Oscar/r
-epos/p_tests/2016-2017/elearning/examen-ambas-mitades/parte-escrita/examen-img/
-Escudo.png> <F:/Oscar/repos/p_tests/2016-2017/elearning/examen-ambas-mitades/pa
-rte-escrita/examen-img/foto_formulario_11.png>] [2]
-(F:\Oscar\repos\p_tests\2016-2017\elearning\examen-ambas-mitades\parte-escrita\
-ClaseExamen.aux) ) 
+{C:/Users/Profesor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <F:/Oscar
+/repos/p_tests/hoy/elearning/marcas/examen-junio/examen-ambas-mitades/parte-esc
+rita/examen-img/Escudo.png> <F:/Oscar/repos/p_tests/hoy/elearning/marcas/examen
+-junio/examen-ambas-mitades/parte-escrita/examen-img/foto_formulario_11.png>] [
+2]
+(F:\Oscar\repos\p_tests\hoy\elearning\marcas\examen-junio\examen-ambas-mitades\
+parte-escrita\ClaseExamen.aux) ) 
 Here is how much of TeX's memory you used:
- 2062 strings out of 493921
- 27646 string characters out of 3144874
- 86158 words of memory out of 3000000
- 5368 multiletter control sequences out of 15000+200000
+ 2067 strings out of 493921
+ 27835 string characters out of 3144867
+ 87165 words of memory out of 3000000
+ 5373 multiletter control sequences out of 15000+200000
  4754 words of font info for 18 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,7n,29p,301b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt1
-0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/l
-circle1.pfb>
-Output written on ClaseExamen.pdf (2 pages, 256941 bytes).
+ 34i,7n,29p,262b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/latxfont/lcircle1.pfb>
+Output written on ClaseExamen.pdf (2 pages, 263551 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
