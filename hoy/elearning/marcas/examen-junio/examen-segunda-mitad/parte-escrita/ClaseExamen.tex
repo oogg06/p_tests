@@ -4,6 +4,27 @@
 \modulo{Lenguajes de marcas -- PARTE ESCRITA (SOLO PARTE 2)}
 
 
+\pregunta{Elaborar una DTD que permita validar este fichero.}{1.5}
+\begin{verbatim}
+<!--Ejemplo de fichero-->
+<listado>
+    <cliente id="AZ-89">
+        <nombre>Juan Sanchez</nombre>
+        <pago moneda="euros">
+            <cantidad>210</cantidad>
+            <banco>Caja de ahorros</banco>
+        </pago>
+    </cliente>
+    <cliente id="AZ-89">
+        <nombre>Tomas Ruiz</nombre>
+        <pago moneda="dolares">
+            <cantidad>460</cantidad>
+        </pago>
+    </cliente>
+</listado>
+\end{verbatim}
+
+\break 
 \pregunta{Crear un esquema XML que permita validar un fichero como el que se muestra a continuación. Se muestran a continuación los requisitos}{3.5}
 \begin{itemize}
 \item{    La raíz se llama {\tt listado}.}
@@ -35,5 +56,5 @@
 </listado>
 \end{verbatim}
 
-\pregunta{Elaborar una DTD que permita validar exactamente el mismo fichero.}{1.5}
+
 \end{document}
