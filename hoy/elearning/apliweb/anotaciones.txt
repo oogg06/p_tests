@@ -1,0 +1,55 @@
+Parte 1
+-----------
+
+En Dropbox los usuarios se administran mediante recomendaciones. Cuando se invita a otros usuarios a hacerlo ¿en qué estados puede estar una invitación?
+
+
+    Invitado. Se ha invitado a la persona pero no se ha creado su cuenta de usuario de Dropbox.
+    Unido. Se ha creado una cuenta de usuario de Dropbox.
+    Se completó. Ha instalado el cliente de escritorio.
+    No elegible. La dirección de correo electrónico no es accesible por el programa de invitaciones y no se puede realizar la invitación.
+
+
+¿Qué inconvenientes existen cuando se usa un servicio de gestión de archivos web?
+
+
+    Al centralizar el almacenamiento tendrás una interdependencia de los proveedores de servicios.
+    La disponibilidad de tus datos estará ligada a la disponibilidad de conexión a internet.
+    Tus datos recorrerán varios nodos para llegar a su destino, y en cada uno de ellos la información podrá ser interceptada, por lo que se genera un problema de seguridad.
+    Se podría utilizar un protocolo seguro como HTTPS, pero se incurriría esta vez en un problema de velocidad.
+    La escalabilidad es otro problema con el que te encontrarás cuando muchas personas empiecen a utilizar el mismo servicio.
+
+
+¿Qué tipos de usuarios hay en Dropbox?
+
+
+    El dueño o administrador de la cuenta de Dropbox. Es el creador de la cuenta de Dropbox. Puede editar carpetas y documentos y eliminarlos; invitar a otros usuarios a participar activamente en los mismos o cambiar los derechos de los usuarios invitados sobre esas carpetas o documentos. Además, ningún otro usuario puede eliminar la participación del dueño en el documento.
+    Usuarios de Dropbox. Con Dropbox podrás compartir carpetas con otras personas usuarias. Una vez compartidas, podrás agregar a esas carpetas, otras personas para que sean miembros de la carpeta. De forma que los cambios realizados en el contenido de la carpeta compartida, aparecerán instantáneamente a todas las personas usuarias que sean miembros de esa carpeta.
+    No usuarios de Dropbox. Puedes compartir también tus archivos subidos a Dropbox con personas que no tienen cuenta de Dropbox, la forma más sencilla es utilizando los enlaces a archivos individuales que puedes enviar desde tu carpeta pública. Estos enlaces podrán ser accedidos por cualquier persona, incluso sin una cuenta de Dropbox. También podrás compartir carpetas con cualquier persona que tenga una dirección de correo electrónico. Esta persona recibirá una invitación para unirse a tu carpeta compartida. Para acceder a la carpeta, todo lo que tendrá que hacer es registrarse creando su propia cuenta de Dropbox.
+
+¿Qué ventajas ofrece una suite de ofimatica web?
+	
+
+    Tendrás acceso on-line a los documentos, podrás acceder a ellos desde cualquier ordenador con conexión a Internet. Ya no tendrás que copiar y transferir ficheros, de forma que no tendrás que llevar tu memoria USB a todos los lados.
+    Las suites ofimáticas web no requieren instalación, por lo que podrás olvidarte de descargas e instalaciones.
+    Favorecen el trabajo colaborativo, podréis incluso trabajar varias personas sobre el mismo documento.
+    Mediante los sistemas de permisos podrás decidir quién puede o no acceder al documento y si puede leerlo, modificarlo, etc.
+    Reducción de costes. Verás que hay suites gratuitas por completo, así como suites gratuitas que tienen versiones más sofisticadas por un pago mensual.
+    Integración de aplicaciones en una única suite. Comprobarás que todas las aplicaciones están integradas dentro de una misma plataforma y con el máximo de compatibilidad con los estándares del mercado.
+
+Cuando se habla de aplicaciones web de escritorio ¿qué es el downtime? ¿qué es una ACL? ¿qué es webtop?
+
+	El término tiempo de inactividad (del inglés downtime) es usado para definir al periodo de tiempo en que el sistema no está disponible. 
+	
+	Del inglés Access Control List (ACL) Es un concepto de seguridad informática que podrás usar para separar privilegios. Es una forma de determinar los permisos de acceso apropiados a un determinado objeto.
+	
+	A los escritorios virtuales web también se les denomina webtop, proveniente de web desktop (escritorio en inglés). 
+	
+Parte 2
+---------------
+
+Usando Google Docs elabora un documento como el mostrado en la figura
+
+Usar un formulario
+
+Crear un usuario de Dropbox y sincronizar carpetas
