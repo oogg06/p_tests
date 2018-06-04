@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.9)  4 JUN 2018 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.9)  4 JUN 2018 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -111,9 +111,30 @@ Package: graphpap 1994/08/09 v1.0c Standard LaTeX graphpap package (LL)
 \c@numpregunta=\count90
 \puntos=\skip43
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count91
+\lst@gtempboxa=\box28
+\lst@token=\toks22
+\lst@length=\count92
+\lst@currlwidth=\dimen107
+\lst@column=\count93
+\lst@pos=\count94
+\lst@lostspace=\dimen108
+\lst@width=\dimen109
+\lst@newlines=\count95
+\lst@lineno=\count96
+\lst@maxwidth=\dimen110
 
-LaTeX Warning: Unused global option(s):
-    [14pt].
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count97
+\lst@skipnumbers=\count98
+\lst@framebox=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (./ClaseExamen.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -138,17 +159,17 @@ LaTeX Info: Redefining \% on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen107
-\scratchbox=\box28
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen108
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count99
+\scratchdimen=\dimen111
+\scratchbox=\box30
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen112
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
+\everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -197,41 +218,50 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\c@lstlisting=\count105
+
 <examen-img/Escudo.png, id=1, 272.01625pt x 323.2075pt>
 File: examen-img/Escudo.png Graphic file (type png)
 
 <use examen-img/Escudo.png>
-Package pdftex.def Info: examen-img/Escudo.png used on input line 4.
+Package pdftex.def Info: examen-img/Escudo.png used on input line 5.
 (pdftex.def)             Requested size: 34.5021pt x 40.99265pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 7.
+(Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 7.
+(Font)              <5> on input line 6.
+
+<examen-img/formulario.png, id=2, 626.34pt x 550.055pt>
+File: examen-img/formulario.png Graphic file (type png)
+
+<use examen-img/formulario.png>
+Package pdftex.def Info: examen-img/formulario.png used on input line 9.
+(pdftex.def)             Requested size: 313.16922pt x 275.02682pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./examen-img/Escudo.png>] 
-[2] (./ClaseExamen.aux
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./examen-img/Escudo.png> <
+./examen-img/formulario.png>]
+(./ClaseExamen.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 2615 strings out of 494891
- 35906 string characters out of 6179040
- 101737 words of memory out of 5000000
- 5891 multiletter control sequences out of 15000+600000
- 4754 words of font info for 18 fonts, out of 8000000 for 9000
+ 3952 strings out of 494891
+ 54956 string characters out of 6179040
+ 119705 words of memory out of 5000000
+ 7216 multiletter control sequences out of 15000+600000
+ 4586 words of font info for 17 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 38i,6n,32p,256b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,32p,266b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on ClaseExamen.pdf (2 pages, 236667 bytes).
+mf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
+Output written on ClaseExamen.pdf (1 page, 234657 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
