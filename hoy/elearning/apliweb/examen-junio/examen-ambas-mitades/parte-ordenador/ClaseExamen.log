@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.9)  4 JUN 2018 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.9)  5 JUN 2018 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -240,28 +240,28 @@ Package pdftex.def Info: examen-img/formulario.png used on input line 9.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./examen-img/Escudo.png> <
-./examen-img/formulario.png>]
+./examen-img/formulario.png>] [2]
 (./ClaseExamen.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 3952 strings out of 494891
- 54956 string characters out of 6179040
+ 3958 strings out of 494891
+ 55014 string characters out of 6179040
  119705 words of memory out of 5000000
- 7216 multiletter control sequences out of 15000+600000
+ 7222 multiletter control sequences out of 15000+600000
  4586 words of font info for 17 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 38i,7n,32p,266b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,32p,397b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on ClaseExamen.pdf (1 page, 234657 bytes).
+Output written on ClaseExamen.pdf (2 pages, 238936 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
