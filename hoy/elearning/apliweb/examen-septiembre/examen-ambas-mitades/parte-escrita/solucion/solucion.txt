@@ -1,0 +1,49 @@
+Di todo lo que sepas sobre los permisos en Dropbox
+========================================================
+Respuesta:
+ 
+Encontrarás un problema a la hora de utilizar Dropbox para asignar permisos a cada usuario sobre los archivos. Dropbox no tiene diferentes niveles de acceso a los archivos.
+
+Todas las personas usuarias miembros de una carpeta compartida tendrán acceso total a todos los archivos de la carpeta. No es posible establecer permisos de lectura o escritura en las subcarpetas o archivos.
+
+Actualmente, todos los usuarios que hagas miembros de tu carpeta compartida tendrán acceso total, con privilegios de lectura y escritura, a los archivos y subcarpetas de esa carpeta compartida.
+
+De momento, no es posible la administración de permisos en Dropbox. Están trabajando para que se pueda ajustar, al menos, el permiso de solo lectura para algunos usuarios.
+
+Cuando accedes a Dropbox por primera vez verás que tienes dos carpetas por defecto que son: Pública y Fotos. Cualquier archivo que coloques en estas carpetas tendrá su propio link de modo que podrás compartirlo con otras personas. Todo lo que almacenes en estas carpetas será público, pero todo lo que subas y lo coloques fuera de estas carpetas, será privado y accesible sólo por ti
+
+
+
+¿Qué inconvenientes ofrece usar un servicio de gestión de archivos web?
+=================================================================================
+
+Respuesta:
+
+* Al centralizar el almacenamiento tendrás una interdependencia de los proveedores de servicios.
+* La disponibilidad de tus datos estará ligada a la disponibilidad de conexión a internet.
+* Tus datos recorrerán varios nodos para llegar a su destino, y en cada uno de ellos la información podrá ser interceptada, por lo que se genera un problema de seguridad.
+* Se podría utilizar un protocolo seguro como HTTPS, pero se incurriría esta vez en un problema de velocidad.
+* La escalabilidad es otro problema con el que te encontrarás cuando muchas personas empiecen a utilizar el mismo servicio.
+
+
+Cuando se fabrica un menú en Joomla ¿con qué tipos de contenido podemos vincular?
+==================================================================================
+
+
+Respuesta:
+
+* Categorías.
+* Artículos.
+* Componentes.
+* Páginas externas.
+
+
+
+Al usar una herramienta de aprendizaje por Internet ¿qué significa que la herramienta sea síncrona o asíncrona?
+===================================================
+
+Respuesta:
+
+
+* Herramientas de comunicación síncrona: te permitirán interactuar simultáneamente en tiempo real. La información es recibida cuando se envía. Por ejemplo, el chat.
+* Herramientas de comunicación asíncrona: cuando no estés en línea al mismo tiempo que tu interlocutor y exista un lapso de tiempo entre el envío y la recepción de la comunicación. Por ejemplo, el correo electrónico, el foro y el blog.
