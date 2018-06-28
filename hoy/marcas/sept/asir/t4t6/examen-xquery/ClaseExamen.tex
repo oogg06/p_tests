@@ -1,0 +1,63 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas y sistemas de gestión de información}
+
+Dado el archivo XML que se puede encontrar al final, extraer la información pedida en los siguientes enunciados usando el lenguaje que se indique
+
+\pregunta{Recuperar el nombre de proveedor (con la etiqueta incluida) de los proveedores cuyo estado sea 20}{1}
+
+\pregunta{Recuperar el nombre de proveedor y el nombre de proveedor que estén en las mismas ciudades}{1.5}
+\pregunta{Averiguar la suma total de cantidades suministradas por los proveedores v1 y v4. El resultado es una sola cantidad}{1.5}
+\pregunta{Obtener las cantidades suministradas a los proyectos cuya ciudad sea Atenas. El resultado es una sola cantidad.}{2}
+\pregunta{Obtener la suma de cantidades donde el proveedor tuviera como ciudad Roma (el resultado es una sola cantidad, la suma total)}{2}
+\pregunta{Obtener la media de cantidades suministradas para los proveedores Smith y Jones}{2}
+
+
+\break 
+\begin{verbatim}
+<datos>
+    <proveedores>
+        <proveedor numprov="v1">
+            <nombreprov>Smith</nombreprov>
+            <estado>20</estado>
+            <ciudad>Londres</ciudad>
+        </proveedor>
+        ... omitido ...
+    </proveedores>
+    <partes>
+        <parte numparte="p1">
+            <nombreparte>Tuerca</nombreparte>
+            <color>Rojo</color>
+            <peso>12</peso>
+            <ciudad>Londres</ciudad>
+        </parte>
+        ... omitido ...
+    </partes>
+    <proyectos>
+        <proyecto numproyecto="y1">
+            <nombreproyecto>Clasificador</nombreproyecto>
+            <ciudad>Paris</ciudad>
+        </proyecto>
+        ... omitido ...
+    </proyectos>
+    <suministros>
+        <suministra>
+            <numprov>v1</numprov>
+            <numparte>p1</numparte>
+            <numproyecto>y1</numproyecto>
+            <cantidad>200</cantidad>
+        </suministra>
+        <suministra>
+            <numprov>v1</numprov>
+            <numparte>p1</numparte>
+            <numproyecto>y4</numproyecto>
+            <cantidad>700</cantidad>
+        </suministra>
+        ... omitido ...
+    </suministros>
+</datos>
+\end{verbatim}
+
+
+\end{document}

@@ -1,0 +1,97 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas y sistemas de gestión de información}
+
+
+\pregunta{Transformar el XML del pedido en el XML que se muestra al final. En concreto obsérvese que se han dividido tablets y portátiles en ``equipos con mucha RAM'' y ``equipos con poca RAM''. Un portatil tiene poca RAM si tiene menos de 5GB (o 5120 MB)}{10}		
+\break
+
+
+\begin{lstlisting}{language=xml}
+<!--FICHERO ORIGINAL-->
+<pedido>
+	<portatiles>
+		<portatil>
+			<peso>1430</peso>
+			<ram unidad="MB">4096</ram>
+			<disco tipo="ssd">500</disco>
+			<precio>499</precio>
+		</portatil>
+		<portatil>
+			<peso>1830</peso>
+			<ram unidad="GB">6</ram>
+			<disco tipo="ssd">1000</disco>
+			<precio>1199</precio>
+		</portatil>
+		<portatil>
+			<peso>1250</peso>
+			<ram unidad="MB">2048</ram>
+			<disco tipo="ssd">750</disco>
+			<precio>699</precio>
+		</portatil>
+	</portatiles>
+	<tablets>
+		<tablet>
+			<plataforma>Android</plataforma>
+			<caracteristicas>
+				<memoria medida="GB">2</memoria>
+				<tamanio medida="pulgadas">6</tamanio>
+				<bateria>LiPo</bateria>
+			</caracteristicas>
+		</tablet>
+		<tablet>
+			<plataforma>iOS</plataforma>
+			<caracteristicas>
+				<memoria medida="GB">4</memoria>
+				<tamanio medida="pulgadas">9</tamanio>
+				<bateria>LiIon</bateria>
+			</caracteristicas>
+		</tablet>
+	</tablets>
+</pedido>
+
+\end{lstlisting}
+
+\break
+
+\begin{lstlisting}{language=xml}
+<!--Fichero que debe salir como resultado 
+del ejercicio de transformación XML-->
+<pedido>
+	<listatablets>
+		<listaplataformas>
+			<plataforma>iOS</plataforma>
+			<plataforma>Android</plataforma>
+		</listaplataformas>
+	</listatablets>
+	<listaportatiles>
+		<con_mucha_memoria>
+			<portatil>
+			<peso>1830</peso>
+			<ram unidad="GB">6</ram>
+			<disco tipo="ssd">1000</disco>
+			<precio>1199</precio>
+		</portatil>
+		</con_mucha_memoria>
+		<con_poca_memoria>
+			<portatil>
+				<peso>1430</peso>
+				<ram unidad="MB">4096</ram>
+				<disco tipo="ssd">500</disco>
+				<precio>499</precio>
+			</portatil>
+			<portatil>
+				<peso>1250</peso>
+				<ram unidad="MB">2048</ram>
+				<disco tipo="ssd">750</disco>
+				<precio>699</precio>
+			</portatil>
+		</con_poca_memoria>
+	</listaportatiles>
+</pedido>
+
+\end{lstlisting}
+
+
+\end{document}

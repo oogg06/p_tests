@@ -1,0 +1,62 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas y sistemas de gestión de información}
+
+Dado el archivo XML que se puede encontrar al final, extraer la información pedida en los siguientes enunciados usando el lenguaje que se indique
+
+\pregunta{Recuperar con XQuery toda la información de los proyectos cuyo identificador sea y1, y3 o y6}{2}
+
+
+
+
+\pregunta{Obtener el total de cantidades suministradas de partes cuya ciudad sea Paris (el resultado son varias cantidades)}{3}
+\pregunta{Usando Java extraer el nombre de parte de las partes rojas. NO HACE FALTA PONER EL CODIGO QUE CARGA UN ARCHIVO, SE PUEDE ASUMIR QUE YA TENEMOS UN OBJETO JAVA DE LA CLASE CORRECTA QUE APUNTA A LA RAÍZ}{5}
+
+\break 
+\begin{verbatim}
+<datos>
+    <proveedores>
+        <proveedor numprov="v1">
+            <nombreprov>Smith</nombreprov>
+            <estado>20</estado>
+            <ciudad>Londres</ciudad>
+        </proveedor>
+        ... omitido ...
+    </proveedores>
+    <partes>
+        <parte numparte="p1">
+            <nombreparte>Tuerca</nombreparte>
+            <color>Rojo</color>
+            <peso>12</peso>
+            <ciudad>Londres</ciudad>
+        </parte>
+        ... omitido ...
+    </partes>
+    <proyectos>
+        <proyecto numproyecto="y1">
+            <nombreproyecto>Clasificador</nombreproyecto>
+            <ciudad>Paris</ciudad>
+        </proyecto>
+        ... omitido ...
+    </proyectos>
+    <suministros>
+        <suministra>
+            <numprov>v1</numprov>
+            <numparte>p1</numparte>
+            <numproyecto>y1</numproyecto>
+            <cantidad>200</cantidad>
+        </suministra>
+        <suministra>
+            <numprov>v1</numprov>
+            <numparte>p1</numparte>
+            <numproyecto>y4</numproyecto>
+            <cantidad>700</cantidad>
+        </suministra>
+        ... omitido ...
+    </suministros>
+</datos>
+\end{verbatim}
+
+
+\end{document}
