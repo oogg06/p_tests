@@ -1,0 +1,51 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas}
+
+\pregunta{Elaborar una DTD que permita validar un fichero XML que se atenga a las reglas siguientes:}{3.5}
+\begin{itemize}
+\item{    El elemento raíz se llama listacomponentes.}
+\item{    Dentro de él puede haber uno o más elementos componente}
+\item{    Un componente puede ser una tarjetagrafica o un monitor.}
+\item{    Un componente puede tener un atributo llamado codigo cuya estructura es siempre un dígito de 6 cifras.}
+\item{    Una tarjeta gráfica siempre tiene dos elementos llamados memoria y precio.}
+\item{    La memoria siempre es una cifra seguido de GB o TB.}
+\item{    El tamaño del monitor siempre es un entero positivo.}
+\item{    El precio siempre es una cantidad positiva con decimales. El precio siempre lleva un atributo moneda que solo puede valer ``euros'' o ``dolares'' y que se utiliza para saber en qué moneda está el precio.}
+
+\end{itemize}
+
+\break
+
+\pregunta{Crear un fichero de esquema XML que permita validar un fichero XML como el mostrado al final y para el cual se han definido las siguientes reglas}{6.5}
+\begin{itemize}
+\item{    El elemento raíz se llama listacomponentes.}
+\item{    Dentro de él puede haber uno o más elementos componente}
+\item{    Un componente puede ser una tarjetagrafica o un monitor.}
+\item{    Un componente puede tener un atributo llamado codigo cuya estructura es siempre un dígito de 6 cifras.}
+\item{    Una tarjeta gráfica siempre tiene dos elementos llamados memoria y precio.}
+\item{    La memoria siempre es una cifra seguido de GB o TB.}
+\item{    El tamaño del monitor siempre es un entero positivo.}
+\item{    El precio siempre es una cantidad positiva con decimales. El precio siempre lleva un atributo moneda que solo puede valer ``euros'' o ``dolares'' y que se utiliza para saber en qué moneda está el precio.}
+
+\end{itemize}
+
+
+\begin{verbatim}
+<listacomponentes>
+  <componente>
+    <tarjetagrafica>
+      <memoria>2GB</memoria>
+      <precio moneda="euros">190</precio>
+    </tarjetagrafica>
+  </componente>
+  <componente codigo="123456">
+    <monitor>
+      <tamanio>14</tamanio>
+      <precio moneda="euros">99.49</precio>
+    </monitor>
+  </componente>
+</listacomponentes>
+\end{verbatim}
+\end{document}

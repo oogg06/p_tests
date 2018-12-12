@@ -1,0 +1,29 @@
+\documentclass[a4paper, 12pt]{examen}
+
+\begin{document}
+
+%\modulo{Prog. multim. y de dispositivos moviles}
+%\modulo{Planif. y adm. de redes}
+\modulo{Prog. de servicios y procesos}
+%\modulo{Lenguajes de marcas}
+
+
+
+
+\pregunta{Un servicio de validación funciona en base al siguiente protocolo:
+
+\begin{enumerate}
+\item{El cliente envía un número X entre 2 y 5}
+\item{El cliente espera a recibir del servidor X números que el servidor genera de modo aleatorio}
+\item{El cliente debe elegir el más pequeño y el más grande (podrían ser iguales). El cliente envía dos líneas separadas, enviando en una el número más pequeño y en otra el más grande.}
+\item{El servidor convierte a {\tt float} ambos números y divide el grande por el pequeño.  Envía el cociente al cliente.}
+\item{El cliente también divide el grande por el pequeño, recibe una línea con el cociente que calculó el servidor y comprueba si son iguales. El cliente escribe en pantalla su cociente y el cociente del servidor. Si el cociente que recibe del servidor y el que él calcula son iguales envía OK al servidor. Si no son iguales, envía FAIL.}
+\end{enumerate}
+
+Crea un cliente Java que implemente este protocolo. Se valorará la calidad del código de la solución.}{3.5}
+
+
+\pregunta{Implementa el servidor multihilo que procesa el protocolo comentado en el ejercicio anterior. Se valorará la calidad del código de la solución.}{6.5}
+
+
+\end{document}

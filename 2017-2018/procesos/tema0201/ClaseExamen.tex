@@ -1,0 +1,27 @@
+\documentclass[a4paper, 12pt]{examen}
+\usepackage{inputenc}
+\begin{document}
+
+%\modulo{Prog. multim. y de dispositivos moviles}
+%\modulo{Planif. y adm. de redes}
+\modulo{Prog. de servicios y procesos}
+%\modulo{Lenguajes de marcas}
+
+
+\pregunta{Un cierto programa desea simular como responden los
+programas multiproceso en condiciones aleatorias, para ello se ha diseñado
+un experimento para ejecutarse en Java que nos dé algunos datos
+para extraer las conclusiones pertinentes. En concreto se desea lo siguiente:
+\begin{itemize}
+\item{Hay 3 procesos escritores que aceptan números pero solo uno a la vez. Una vez
+que reciben un número lo imprimen en pantalla. Cada proceso lleva la cuenta
+de cuantos números le han pedido imprimir.}
+\item{Hay 10  procesos extractores que se dedican a extraer números. En concreto
+sacan 30 números al azar entre 1 y 50. Una vez extraído un número eligen un
+proceso al azar, le envían el número y esperan un tiempo al azar entre 200 y 500 
+milisegundos}
+\end{itemize}
+Escribir el programa Java que haga la simulación y que indique cuantos números
+ha recibido cada proceso escritor. 
+ }{10}
+\end{document}
