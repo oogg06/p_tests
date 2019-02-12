@@ -1,0 +1,51 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas -- PARTE ESCRITA}
+
+\pregunta{¿Qué ventajas e inconvenientes tienen los gestores de contenidos}{1.5}
+
+entajas:
+
+    Control del acceso de los usuarios, asignado diferentes permisos a cada usuario para que tenga unas funciones u otras respecto a los contenidos.
+    Interfaz de navegación intuitiva y basada en hojas de estilo en cascada para todas las páginas del sitio web.
+    Mantenimiento óptimo de varias páginas web.
+    Producción de páginas web dinámicas. En base a la petición del usuario se crea la página web.
+    Rapidez de publicación y edición de contenidos.
+
+Inconvenientes:
+
+    Carga lenta de la página web, ya que se tiene que generar el código HTML y mostrarlo en el navegador.
+    Fallos de seguridad en la programación y las bases de datos soporte de los gestores.
+    Poco originales, la personalización se basa en plantillas, pero aun así suelen ser todos los sitios web muy parecidos.
+
+
+
+\pregunta{¿Qué tipos de extensiones tiene Joomla}{1.5}
+
+Existen diferentes tipos de extensiones:
+
+    Los componentes.
+    Los módulos.
+    Los plug-ins. Son aplicaciones que se relacionan con otras para aportar nuevas funcionalidades.
+    Los idiomas.
+    Las plantillas.
+
+
+\pregunta{¿Qué acciones debería contemplar un plan de mantenimiento de un gestor de contenidos?}{1}
+
+ Para ello, lo más aconsejable es que tu plan de mantenimiento incorpore las acciones siguientes:
+
+    Mantener actualizado tu sistema en todo momento, te servirá para estar al día de posibles fallos de seguridad, y solventar malfuncionamientos en la aplicación que probablemente ni siquiera habías detectado.
+    Pruebas de funcionamiento después de cada actualización, sobre todo cuando las actualizaciones impliquen un cambio de versión. En este último caso, deberás estudiar bien si te conviene el cambio de versión, puede incluso que no la necesites.
+    Copias de seguridad. Deberás hacer copias de seguridad regularmente y, sobre todo, antes de cada actualización.
+
+
+\pregunta{¿Qué modos de registro son los mas utilizados en Moodle?
+    Autenticación basada en Email. Es el método predeterminado. Cuando te inscribas, con tu nombre de usuario y contraseña, te enviará un email a tu dirección de correo electrónico. El próximo login que hagas será comprobado contra los valores guardados en la base de datos de Moodle.
+    Sólo cuentas manuales. Impide la creación automatizada de usuarios. Cada usuario lo tiene que crear el administrador. Debes proporcionar instrucciones, de forma que se sepa el usuario y contraseña por defecto.
+    Sin autenticación. Los internautas podrán registrarse y crear cuentas válidas, sin autenticación contra un servidor externo y sin confirmar vía email si es válido o existente. No se recomienda debido a los problemas de seguridad que puede causar.
+    Usar un servidor LDAP. Este método te permitirá tener un sistema único de autenticación para todas las aplicaciones de tu empresa.
+\end{document}
+
+

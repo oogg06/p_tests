@@ -1,0 +1,19 @@
+<ventas>
+<venta codigo="VV-0001">
+<cemento>
+<portepagado/>
+<peso unidad="kg">1000</peso>
+</cemento>
+</venta>
+<venta codigo="VV-0002">
+<ladrillos>
+<modelo>L-72</modelo>
+</ladrillos>
+</venta>
+<venta codigo="VV-0003">
+<azulejos>
+<color escala="rgb">00ffdd</color>
+<peso>150</peso>
+</azulejos>
+</venta>
+</ventas>

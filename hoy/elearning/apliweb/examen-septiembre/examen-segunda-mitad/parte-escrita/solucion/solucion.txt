@@ -1,0 +1,59 @@
+Di todo lo que sepas sobre los permisos en Dropbox
+========================================================
+Respuesta:
+ 
+Encontrarás un problema a la hora de utilizar Dropbox para asignar permisos a cada usuario sobre los archivos. Dropbox no tiene diferentes niveles de acceso a los archivos.
+
+Todas las personas usuarias miembros de una carpeta compartida tendrán acceso total a todos los archivos de la carpeta. No es posible establecer permisos de lectura o escritura en las subcarpetas o archivos.
+
+Actualmente, todos los usuarios que hagas miembros de tu carpeta compartida tendrán acceso total, con privilegios de lectura y escritura, a los archivos y subcarpetas de esa carpeta compartida.
+
+De momento, no es posible la administración de permisos en Dropbox. Están trabajando para que se pueda ajustar, al menos, el permiso de solo lectura para algunos usuarios.
+
+Cuando accedes a Dropbox por primera vez verás que tienes dos carpetas por defecto que son: Pública y Fotos. Cualquier archivo que coloques en estas carpetas tendrá su propio link de modo que podrás compartirlo con otras personas. Todo lo que almacenes en estas carpetas será público, pero todo lo que subas y lo coloques fuera de estas carpetas, será privado y accesible sólo por ti
+
+
+
+¿Qué ventajas ofrece usar un servicio de gestión de archivos web?
+=================================================================================
+
+Respuesta:
+
+
+* Podrás realizar copias de seguridad online automáticas.
+* La disponibilidad de tus archivos será inmediata en cualquier lugar y desde cualquier dispositivo.
+* La sincronización de tus dispositivos con el almacenamiento será fiable.
+* Control del acceso de los usuarios, asignado diferentes permisos a cada usuario respecto a los archivos. Podrás compartir datos y gestionar el trabajo colaborativo.
+* Interfaz de navegación intuitiva.
+* Existen servicios de este tipo gratuitos.
+
+
+
+¿Como funciona la gestión de usuarios en Google Docs?
+==========================================================
+
+
+Respuesta:
+
+A efectos del trabajo colaborativo que es para lo que se utilizan los usuarios en Google Docs, sólo existen dos tipos de usuarios: el propietario de los documentos y las personas con las que el propietario comparte los documentos.
+
+La forma de administrar los usuarios en Google Docs es sencilla: como propietario, tú serás el que decida con qué otras personas quieres compartir tus documentos de Google Docs, verás más adelante que también podrás determinar cómo los compartes mediante la asignación de permisos.
+
+La administración de usuarios en tu Google Docs la puedes hacer a través de la carpeta contactos de tu cuenta de correo electrónico de Gmail.
+
+Podrás compartir documentos escribiendo directamente la cuenta de correo electrónico de la persona con la quieres compartir, o podrás añadir personas desde la carpeta contactos de tu cuenta de Gmail para compartir los documentos.
+
+
+
+¿Qué ventajas ofrece una suite de ofimatica web?
+===================================================
+
+Respuesta:
+
+
+Tendrás acceso on-line a los documentos, podrás acceder a ellos desde cualquier ordenador con conexión a Internet. Ya no tendrás que copiar y transferir ficheros, de forma que no tendrás que llevar tu memoria USB a todos los lados.
+Las suites ofimáticas web no requieren instalación, por lo que podrás olvidarte de descargas e instalaciones.
+Favorecen el trabajo colaborativo, podréis incluso trabajar varias personas sobre el mismo documento.
+Mediante los sistemas de permisos podrás decidir quién puede o no acceder al documento y si puede leerlo, modificarlo, etc.
+Reducción de costes. Verás que hay suites gratuitas por completo, así como suites gratuitas que tienen versiones más sofisticadas por un pago mensual.
+Integración de aplicaciones en una única suite. Comprobarás que todas las aplicaciones están integradas dentro de una misma plataforma y con el máximo de compatibilidad con los estándares del mercado.
