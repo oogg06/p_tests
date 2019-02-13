@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ejercicio</title>
+</head>
+
+<body>
+
+<!-- HTML con los controles-->
+<h4>Revistas</h4>
+<input type="radio" name="revistas" value="ciencia" id="ciencia" checked>
+
+<label for="ciencia">TodoCiencia</label>
+<input type="radio" name="revistas" value="tv" id="tv">
+
+<label for="tv">SoloTV</label>
+<input type="radio" name="revistas" value="crucigramas" id="crucigramas">
+                   
+<label for="crucigramas">MasCrucigramas</label>
+
+<h4>Periódicos</h4>
+
+<input type="checkbox" name="periodicos[]" id="diario" value="diario" >
+<label for="diario">El diario</label>
+                    
+<input type="checkbox" name="periodicos[]" id="suceso" value="suceso">
+<label for="suceso">El suceso</label>
+                    
+<input type="checkbox" name="periodicos[]" id="econoticias" value="econoticias">
+<label for="econoticias">Econoticias</label>
+<br/><br/>
+<input type="submit" value="Calcular precio" onclick="calcular(); return false;">
+Precio:<input type="text" id="precio_total">
+
+
+</body>
+</html>
