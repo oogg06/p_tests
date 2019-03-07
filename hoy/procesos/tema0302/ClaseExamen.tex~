@@ -1,0 +1,28 @@
+\documentclass[a4paper, 12pt]{examen}
+
+\begin{document}
+
+%\modulo{Prog. multim. y de dispositivos moviles}
+%\modulo{Planif. y adm. de redes}
+\modulo{Prog. de servicios y procesos}
+%\modulo{Lenguajes de marcas}
+
+
+
+
+\pregunta{Un servicio de validación funciona en base al siguiente protocolo:
+
+\begin{enumerate}
+\item{El cliente envia el mensaje HOLA.}
+\item{El cliente espera que lleguen 2 lineas. Una contiene el texto BIENVENIDO y la otra contiene un código que el servidor espera que validemos.}
+\item{El cliente tiene que multiplicar el número por 2, lo que actuará como código de validación.}
+\item{El cliente envía al servidor dos líneas. Una contiene el texto CODIGO y la otra contiene el código de validación.}
+\item{El cliente espera que le envíen una línea que contendrá un mensaje que puede ser de éxito o de fallo.}
+
+Crea un cliente Java que implemente este protocolo.}{3.5}
+
+
+\pregunta{Implementa el servidor que procesa el protocolo comentado en el ejercicio anterior.}{6.5}
+
+
+\end{document}

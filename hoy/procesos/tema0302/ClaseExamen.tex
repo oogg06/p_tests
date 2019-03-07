@@ -1,0 +1,32 @@
+\documentclass[a4paper, 12pt]{examen}
+
+\begin{document}
+
+%\modulo{Prog. multim. y de dispositivos moviles}
+%\modulo{Planif. y adm. de redes}
+\modulo{Prog. de servicios y procesos}
+%\modulo{Lenguajes de marcas}
+
+
+
+
+Se desea crear un servicio de transporte de datos que sea capaz de modificar las cadenas que recibe convirtiendo a mayúsculas todos las cadenas que reciba. En este sistema habrá emisores de mensajes, receptores de mensajes y servidores intermediarios. 
+
+Un emisor de mensajes se dedicará a conectarse a un servidor y enviar de 1 a 10 mensajes (cantidad al azar) de uno de estos mensajes:
+
+\begin{itemize}
+\item{\tt Mensaje}
+\item{\tt Texto de prueba}
+\item{\tt Canal abierto}
+\end{itemize}
+
+El servidor de mensajes se dedicará a recibir mensajes de los emisores, transformarlos como se ha dicho y reenviarlos a los receptores.
+
+El receptor de mensajes se dedicará a estar en un bucle infinito recibiendo mensajes del servidor en imprimiéndolos en pantalla.
+
+\pregunta{Crear el emisor de mensajes en Java}{2}
+\pregunta{Crear el receptor de mensajes}{2}
+\pregunta{Crear un servidor multihilo que se comporte de acuerdo a lo especificado en el texto anterior.}{6}
+
+
+\end{document}
