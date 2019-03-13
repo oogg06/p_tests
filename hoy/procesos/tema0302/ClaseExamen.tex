@@ -20,9 +20,10 @@ Un emisor de mensajes se dedicará a conectarse a un servidor y enviar de 1 a 10 
 \item{\tt Canal abierto}
 \end{itemize}
 
+Los receptores de mensajes se conectan al servidor y leen mensajes. Se debe tener en cuenta que el mensaje de cualquier emisor debe llegar a todos los receptores. Puede haber muchos emisores y muchos receptores.
+
 El servidor de mensajes se dedicará a recibir mensajes de los emisores, transformarlos como se ha dicho y reenviarlos a los receptores.
 
-El receptor de mensajes se dedicará a estar en un bucle infinito recibiendo mensajes del servidor en imprimiéndolos en pantalla.
 
 \pregunta{Crear el emisor de mensajes en Java}{2}
 \pregunta{Crear el receptor de mensajes}{2}
