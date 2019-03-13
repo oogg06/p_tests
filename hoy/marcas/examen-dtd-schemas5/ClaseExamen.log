@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730) (preloaded format=pdflatex 2018.11.21)  13 MAR 2019 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730) (preloaded format=pdflatex 2018.11.21)  13 MAR 2019 12:34
 entering extended mode
 **./ClaseExamen.tex
 (ClaseExamen.tex
@@ -211,34 +211,38 @@ File: examen-img/Escudo.png Graphic file (type png)
 Package pdftex.def Info: examen-img/Escudo.png  used on input line 4.
 (pdftex.def)             Requested size: 34.5021pt x 40.99265pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 22.
+(Font)              <5> on input line 6.
  [1
 
-{D:/miktex/texmfs/data/pdftex/config/pdftex.map} <./examen-img/Escudo.png>] [2]
- (ClaseExamen.aux
+{D:/miktex/texmfs/data/pdftex/config/pdftex.map} <./examen-img/Escudo.png>]
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 44--44
+[]    \OT1/cmtt/m/n/10 <!--Hay 0 o mas elementos fichero. "Creacion" es obliga
+torio-->[] 
+ []
+
+[2] (ClaseExamen.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 2671 strings out of 494872
- 36827 string characters out of 3178911
- 108485 words of memory out of 3000000
- 6272 multiletter control sequences out of 15000+200000
- 5062 words of font info for 19 fonts, out of 3000000 for 9000
+ 2668 strings out of 494872
+ 36838 string characters out of 3178911
+ 107485 words of memory out of 3000000
+ 6270 multiletter control sequences out of 15000+200000
+ 4754 words of font info for 18 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,6n,33p,305b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/mikt
-ex/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/miktex/texmfs/
-install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/miktex/texmfs/install/font
-s/type1/public/amsfonts/cm/cmr8.pfb><D:/miktex/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb><D:/miktex/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmtt10.pfb><D:/miktex/texmfs/install/fonts/type1/public/amsfonts/latxfont/lc
-ircle1.pfb>
-Output written on ClaseExamen.pdf (2 pages, 248732 bytes).
+ 41i,6n,33p,289b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/mik
+tex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/miktex/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/miktex/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmti10.pfb><D:/miktex/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb><D:/miktex/texmfs/install/fonts/type1/public/amsfonts/
+latxfont/lcircle1.pfb>
+Output written on ClaseExamen.pdf (2 pages, 238241 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
