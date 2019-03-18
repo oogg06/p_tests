@@ -6,14 +6,14 @@
 \pregunta{Elaborar un esquema XML que permita validar un fichero XML que se atenga a las reglas siguientes:}{6.5}
 \begin{itemize}
 
-\item{El elemento raíz se llama {\tt articulos}. Dentro ocurre lo siguiente.}
-\item{Hay uno o más elementos {\tt ordenador} con un atributo optativo
-    llamado ``lote'' que es optativo. Si aparece tiene la estructura
-    {\tt AA-2222} (dos mayúsculas, seguidas de guión, seguidas de cuatro cifras}
+\item{El elemento raÃ­z se llama {\tt articulos}. Dentro ocurre lo siguiente.}
+\item{Hay uno o mÃ¡s elementos {\tt ordenador} con un atributo optativo
+    llamado ``lote''. Si aparece tiene la estructura
+    {\tt AA-2222} (dos mayÃºsculas, seguidas de guiÃ³n, seguidas de cuatro cifras}
 \item{Dentro de la etiqueta {\tt procesador} hay cadenas, pero hay un atributo
         obligatorio llamado ``marca'' que siempre contiene ``AMD'' o ``Intel''}
-\item{Dentro de la etiqueta procesador PUEDE haber un elemento llamado
-        ``pulgadasmonitor'' que siempre lleva un dentro un entero que puede
+\item{Dentro de la etiqueta ordenador PUEDE haber un elemento llamado
+        ``pulgadasmonitor'' que siempre lleva  dentro un entero que puede
         valer de 13 a 42}        
 \end{itemize}
 
@@ -23,16 +23,16 @@
 
 \begin{verbatim}
 <!--Ejemplo de fichero para los ejercicios-->
-<!--El elemento raíz se llama artículos-->
+<!--El elemento raÃ­z se llama artÃ­culos-->
 <articulos>
-    <!--Hay uno o más elementos ordenador con un atributo optativo
+    <!--Hay uno o mÃ¡s elementos ordenador con un atributo optativo
     llamado ``lote'' que es optativo. Si aparece tiene la estructura
-    AA-2222 (dos mayúsculas, seguidas de guión, seguidas de cuatro cifras)-->
+    AA-2222 (dos mayÃºsculas, seguidas de guiÃ³n, seguidas de cuatro cifras)-->
     <ordenador lote="FZ-5192">
         <!--Dentro de la etiqueta procesador hay cadenas, pero hay un atributo
         obligatorio llamado ``marca'' que siempre contiene ``AMD'' o ``Intel''-->
         <procesador marca="AMD">Equivalente i7</procesador>
-        <!--Dentro de la etiqueta procesador PUEDE haber un elemento llamado
+        <!--Dentro de la etiqueta ordenador PUEDE haber un elemento llamado
         ``pulgadasmonitor'' que siempre lleva un dentro un entero que puede
         valer de 13 a 42-->
         <pulgadasmonitor>15</pulgadasmonitor>
