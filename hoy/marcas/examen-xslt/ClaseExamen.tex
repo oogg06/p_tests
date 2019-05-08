@@ -1,0 +1,83 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas y sistemas de gestión de información}
+\pregunta{
+Una empresa desea modelar un flujo que indique las novedades en su canal de ventas, por lo que desea ver como quedaría un archivo RSS que refleje dichas novedades.
+\begin{itemize}
+\item{La URL principal es http://acme.com y el canal de la empresa se llamará ``Novedades de ACME'' siendo su descripción ``Las más recientes novedades al servicio de nuestros clientes''}
+\item{Dentro de dicho canal se desea ver noticias de ejemplo}
+\begin{enumerate}
+	\item{La primera apunta a la URL http://acme.com/novedades1 su descripción es ``Disponible la nueva actualización de Android en los servidores de Google y réplicas autorizadas`` y el título ``Nueva versión de Android''}
+	\item{La segunda noticia tiene la URL http://acme.com/novedades2, su título es ``Revisión de HTML'' y la descripción es ``Cambios en el lenguaje de marcas para la web''}
+\end{enumerate}
+
+\end{itemize}
+
+}{1}
+
+\break 
+\pregunta{Dado el archivo de pedido XML con el nombre ``Fichero original'' y que contiene información sobre ordenadores, 
+resolver con XQuery estas consultas
+\begin{itemize}
+\item{Extraer el código de los portátiles que lleven disco SSD.}
+\item{Extraer toda la informaciónd e los portátiles con un precio superior a 400.}
+\item{Extraer el peso de los portátiles que lleven disco SSD.}
+\end{itemize}
+}{3}
+
+\pregunta{Transformar el archivo de pedido XML con el nombre ``Fichero original'' en una página HTML que contenga una tabla con los equipos que contengan 4GB de memoria o más.}{6}		
+
+\break
+
+\begin{lstlisting}{language=xml}
+<!--FICHERO ORIGINAL-->
+<pedido>
+	<portatiles>
+		<portatil codigo="C1">
+			<peso>1430</peso>
+			<ram unidad="GB">4</ram>
+			<disco tipo="ssd">500</disco>
+			<precio>499</precio>
+		</portatil>
+		<portatil codigo="C2">
+			<peso>1830</peso>
+			<ram unidad="GB">1</ram>
+			<disco tipo="ssd">1000</disco>
+			<precio>1199</precio>
+		</portatil>
+		<portatil codigo="C3">
+			<peso>1250</peso>
+			<ram unidad="MB">2048</ram>
+			<disco tipo="ssd">750</disco>
+			<precio>699</precio>
+		</portatil>
+	</portatiles>
+</pedido>
+
+\end{lstlisting}
+
+\break
+
+\begin{lstlisting}{language=xml}
+<!--Fichero que debe salir como resultado del ejercicio 3-->
+<html>
+	<head>
+		<title>Examen</title>
+	</head>
+	<body>
+		<table border="1">
+			<tr>
+				<th>Codigo de dispositivo</th>
+				<th>Memoria</th>
+			</tr>
+			<tr>
+				<td>C1</td>
+				<td>4GB</td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+\end{lstlisting}
+\end{document}
