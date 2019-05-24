@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730) (preloaded format=pdflatex 2018.11.21)  24 MAY 2019 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730) (preloaded format=pdflatex 2018.11.21)  24 MAY 2019 13:14
 entering extended mode
 **./ClaseExamen.tex
 (ClaseExamen.tex
@@ -237,9 +237,9 @@ File: examen-img/Escudo.png Graphic file (type png)
 Package pdftex.def Info: examen-img/Escudo.png  used on input line 4.
 (pdftex.def)             Requested size: 34.5021pt x 40.99265pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 8.
+(Font)              <7> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 8.
+(Font)              <5> on input line 9.
  [1
 
 {D:/miktex/texmfs/data/pdftex/config/pdftex.map} <./examen-img/Escudo.png>]
@@ -249,11 +249,11 @@ File: examen-img/BaseDatosProveedoresPartesProyectos.png Graphic file (type png
 )
 <use examen-img/BaseDatosProveedoresPartesProyectos.png>
 Package pdftex.def Info: examen-img/BaseDatosProveedoresPartesProyectos.png  us
-ed on input line 70.
+ed on input line 64.
 (pdftex.def)             Requested size: 345.0pt x 631.79062pt.
 
 
-LaTeX Warning: Float too large for page by 101.6795pt on input line 71.
+LaTeX Warning: Float too large for page by 101.6795pt on input line 65.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -264,10 +264,10 @@ LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 4013 strings out of 494872
- 56093 string characters out of 3178911
+ 4012 strings out of 494872
+ 56075 string characters out of 3178911
  130228 words of memory out of 3000000
- 7603 multiletter control sequences out of 15000+200000
+ 7602 multiletter control sequences out of 15000+200000
  4754 words of font info for 18 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,6n,34p,280b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -277,7 +277,7 @@ nstall/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/miktex/texmfs/install/fonts/
 type1/public/amsfonts/cm/cmti10.pfb><D:/miktex/texmfs/install/fonts/type1/publi
 c/amsfonts/cm/cmtt10.pfb><D:/miktex/texmfs/install/fonts/type1/public/amsfonts/
 latxfont/lcircle1.pfb>
-Output written on ClaseExamen.pdf (3 pages, 310621 bytes).
+Output written on ClaseExamen.pdf (3 pages, 311311 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
