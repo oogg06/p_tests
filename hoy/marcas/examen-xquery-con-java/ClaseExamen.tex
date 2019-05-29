@@ -6,12 +6,30 @@
 Dado el archivo XML que se puede encontrar al final, extraer la información pedida en los siguientes enunciados usando el lenguaje que se indique
 
 
-\pregunta{Averiguar la media de partes suministradas por Jones y Smith (Deben salir dos resultados, la media de Adams y la media de Smith).}{2}
-\pregunta{Recuperar los tríos ``numero de proveedor'', ``numero de parte'', ``número de proyecto'' en los que sus tres ciudades sean distintos}{1}
-\pregunta{Recuperar la cantidad de proveedores cuya ciudad es París o su estado es igual o mayor que 20.}{1}
+\pregunta{Averiguar la media de partes suministradas por Jones y Smith (Deben salir dos resultados, la media de Adams y la media de Smith).}{2.5}
+\pregunta{Recuperar las parejas ``numero de proveedor'',  ``número de proyecto'' en los que sus tres ciudades sean distintos}{1.5}
+\pregunta{Recuperar la cantidad de proveedores cuya ciudad es París o su estado es igual o mayor que 20.}{1.5}
 \pregunta{Recuperar el código de las partes cuyo ciudad sea ``Roma'' y su color sea ``Rojo'' o ``Verde''}{1}
 
-\pregunta{Usando Java y las clases DOM del W3C mostrar el código de los proyectos que han recibido más de 300 partes p1 (solo se necesita examinar la tabla Suministra.)}{5}
+\pregunta{Completar la clase implementando un método que imprima los números de proyecto que han recibido más de 300 partes p1 (solo se necesita examinar la tabla Suministra)}{3.5}
+\begin{verbatim}
+public class ProcesadorXML {
+    Document raiz;
+    public void ProcesadorXML(){
+        this.getRaiz("proveedores.xml");    
+    }
+    public void getRaiz(String nombreFichero){
+        /*... omitido...*/    
+    }
+    public void imprimirNumerosDeProyectoConMasDe(int cantidadPartes, String numparte){
+        /*...implementa este método...*/
+    }
+    public static void main(String[] argumentos){
+        ProcesadorXML procesador=new Procesador();
+        procesador.imprimirNumerosDeProyectoConMasDe(300, "p1");
+    }
+}
+\end{verbatim}
 
 \break 
 \begin{verbatim}
