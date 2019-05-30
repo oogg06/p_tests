@@ -1,28 +1,28 @@
 \documentclass{examen}
 
 \begin{document}
-\modulo{Lenguajes de marcas y sistemas de gesti髇 de informaci髇}
+\modulo{Lenguajes de marcas y sistemas de gesti贸n de informaci贸n}
 
-Dado el archivo XML que se puede encontrar al final, extraer la informaci髇 pedida en los siguientes enunciados usando el lenguaje que se indique
+Dado el archivo XML que se puede encontrar al final, extraer la informaci贸n pedida en los siguientes enunciados usando el lenguaje que se indique
 
 
-\pregunta{Averiguar la media de partes suministradas por Jones y Smith (Deben salir dos resultados, la media de Adams y la media de Smith).}{2.5}
-\pregunta{Recuperar las parejas ``numero de proveedor'',  ``n鷐ero de proyecto'' en los que sus tres ciudades sean distintos}{1.5}
-\pregunta{Recuperar la cantidad de proveedores cuya ciudad es Par韘 o su estado es igual o mayor que 20.}{1.5}
-\pregunta{Recuperar el c骴igo de las partes cuyo ciudad sea ``Roma'' y su color sea ``Rojo'' o ``Verde''}{1}
+\pregunta{Averiguar la media de partes suministradas por Jones y Smith (Deben salir dos resultados, la media de Jones y la media de Smith).}{2.5}
+\pregunta{Recuperar las parejas ``numero de proveedor'',  ``n煤mero de proyecto'' en los que sus ciudades sean distintos}{1.5}
+\pregunta{Recuperar la cantidad de proveedores cuya ciudad es Par铆s o su estado es igual o mayor que 20.}{1.5}
+\pregunta{Recuperar el c贸digo de las partes cuyo ciudad sea ``Roma'' y su color sea ``Rojo'' o ``Verde''}{1}
 
-\pregunta{Completar la clase implementando un m閠odo que imprima los n鷐eros de proyecto que han recibido m醩 de 300 partes p1 (solo se necesita examinar la tabla Suministra)}{3.5}
+\pregunta{Completar la clase implementando un m茅todo que imprima los n煤meros de proyecto que han recibido m谩s de 300 partes p1 (solo se necesita examinar la tabla Suministra)}{3.5}
 \begin{verbatim}
 public class ProcesadorXML {
-    Document raiz;
+    Document documento;
     public void ProcesadorXML(){
-        this.getRaiz("proveedores.xml");    
+        documento=this.getRaiz("proveedores.xml");    
     }
-    public void getRaiz(String nombreFichero){
+    public Document getRaiz(String nombreFichero){
         /*... omitido...*/    
     }
     public void imprimirNumerosDeProyectoConMasDe(int cantidadPartes, String numparte){
-        /*...implementa este m閠odo...*/
+        /*...implementa este m茅todo...*/
     }
     public static void main(String[] argumentos){
         ProcesadorXML procesador=new Procesador();
