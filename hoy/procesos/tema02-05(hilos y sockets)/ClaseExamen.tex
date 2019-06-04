@@ -1,0 +1,19 @@
+\documentclass[a4paper, 12pt]{examen}
+\usepackage{inputenc}
+\begin{document}
+
+%\modulo{Prog. multim. y de dispositivos moviles}
+%\modulo{Planif. y adm. de redes}
+\modulo{Prog. de servicios y procesos. Recuperación}
+%\modulo{Lenguajes de marcas}
+\pregunta{Se desea crear una aplicación cliente/servidor que se base en hilos para obtener el máximo rendimiento. En concreto se desea disponer de un servicio de agenda telefónica que permita almacenar y borrar nombres asociados a números de teléfono así como buscar en la agenda tanto por nombres como por números de teléfono. 
+
+Para ello se especifica el siguiente comportamiento de clientes y servidor.}{10}
+\begin{itemize}
+\item{Existen cuatros tipos de mensajes: ALMACENAR, CONSULTANORMAL, CONSULTAINVERSA y BORRAR}
+\item{Si un cliente quiere almacenar un número en la agenda tiene que enviar tres cosas: La palabra ALMACENAR, un nombre de persona y un número. Un servidor que reciba este mensaje almacenará ese nombre y ese número de teléfono (puede hacerse en memoria, no se necesitan ficheros ni bases de datos). El servidor contestará OK si se hizo el almacenamiento o ERROR si hubo algún error o excepción al intentar hacer el almacenamiento.}
+\item{Si un cliente quiere hacer una consulta buscando por nombre de persona enviará dos cosas: La palabra CONSULTANORMAL y un nombre de persona. El servidor contestará con una sola línea con el número de teléfono o la palabra DESCONOCIDO para indicar que no se conoce tal nombre.}
+\item{Si un cliente quiere hacer una búsqueda por número de teléfono tiene que enviar dos cosas: La palabra CONSULTAINVERSA y un número de teléfono. El servidor contestará con una sola línea con el nombre de persona o la palabra DESCONOCIDO para indicar que no se conoce el número.}
+\item{Si un cliente quiere borrar un número tiene que enviar dos cosas: la palabra BORRAR y un nombre de persona. El servidor contestará OK si se borró el nombre con el teléfono o la palabra DESCONOCIDO si no se conocía ese nombre de persona. No existe la posibilidad de borrar buscando por número de teléfono, se puede ignorar ese caso.}
+\end{itemize}
+\end{document}

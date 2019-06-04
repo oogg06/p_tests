@@ -4,57 +4,44 @@
 \modulo{Lenguajes de marcas -- PARTE ESCRITA (SOLO PARTE 2)}
 
 
-\pregunta{Elaborar una DTD que permita validar este fichero.}{1.5}
-\begin{verbatim}
-<!--Ejemplo de fichero-->
-<listado>
-    <cliente id="AZ-89">
-        <nombre>Juan Sanchez</nombre>
-        <pago moneda="euros">
-            <cantidad>210</cantidad>
-            <banco>Caja de ahorros</banco>
-        </pago>
-    </cliente>
-    <cliente id="AZ-89">
-        <nombre>Tomas Ruiz</nombre>
-        <pago moneda="dolares">
-            <cantidad>460</cantidad>
-        </pago>
-    </cliente>
-</listado>
-\end{verbatim}
 
-\break 
-\pregunta{Crear un esquema XML que permita validar un fichero como el que se muestra a continuación. Se muestran a continuación los requisitos}{3.5}
+\pregunta{Elaborar un esquema XML que permita validar un fichero XML que se atenga a las reglas siguientes:}{3.5}
 \begin{itemize}
-\item{    La raíz se llama {\tt listado}.}
-\item{    Dentro de la lista debe haber uno o más elementos {\tt cliente}.}
-\item{    Todos los clientes tienen siempre un atributo {\tt id}. Este atributo tiene siempre la misma estructura: dos mayúsculas, seguidas de un guión, seguido de dos cifras.}
-\item{    Todos los clientes tienen siempre dos elementos {\tt nombre} y {\tt pago}.}
-\item{    El {\tt nombre} siempre es una cadena de texto}
-\item{    El pago tiene siempre un atributo {\tt moneda}. Este atributo siempre vale uno de estos dos valores: ``euros'' o ``dolares''}
-\item{    Dentro del elemento {\tt pago} siempre hay un elemento {\tt cantidad}, que es siempre un numero entero positivo. Despues de la cantidad puede haber o no un elemento {\tt banco} que es siempre una cadena de texto}
-\item{    No hace falta que pongas el atributo {\tt xmlns:xs} ni el prefijo {\tt xs} o {\tt xsd}. Este elemento del ejercicio no sumará ni restará.}
+
+\item{El elemento raíz se llama {\tt ficheros}. Dentro de él debe haber 0 o más elementos {\tt fichero}. Dentro de {\tt fichero }
+debe haber un elemento {\tt creador} y puede haber o no un {\tt tamanio }. El elemento {\tt fichero} debe llevar siempre un atributo obligatorio ``creacion'' y la estructura de ese atributo es AAAA-MM-DD.}
+
+\item{Un {\tt creador} debe llevar un atributo obligatorio llamado {\tt grupo}. Dentro de {\tt grupo} puede haber cualquier cadena. Dentro del elemento {\tt creador} solo puede haber los usuarios ``usu01'' o ``usu02''}.
+\item{El elemento {\tt tamanio} es optativo. Si aparece debe llevar obligatoriamente un atributo ``unidad''. Dentro de dicho atributo ``unidad'' solo puede haber {\tt bytes} o {\tt megabytes}. Dentro de {\tt tamanio} debe haber un entero positivo.}
+
+
 \end{itemize}
 
+\break
+
+\pregunta{Crear una DTD que permita validar un fichero XML con las mismas reglas indicadas anteriormente o al menos todas las que pueda controlar una DTD}{1.5}
+
 \begin{verbatim}
-<!--Ejemplo de fichero-->
-<listado>
-    <cliente id="AZ-89">
-        <nombre>Juan Sanchez</nombre>
-        <pago moneda="euros">
-            <cantidad>210</cantidad>
-            <banco>Caja de ahorros</banco>
-        </pago>
-    </cliente>
-    <cliente id="AZ-89">
-        <nombre>Tomas Ruiz</nombre>
-        <pago moneda="dolares">
-            <cantidad>460</cantidad>
-        </pago>
-    </cliente>
-</listado>
+<!--Ejemplo de fichero para los ejercicios-->
+<ficheros> <!--Elemento raí­z-->
+    <!--Hay 0 o más elementos fichero. "Creacion" es obligatorio-->
+    <fichero creacion="2019-02-01">
+        <!--Elemento "creador" obligatorio. Atributo "grupo"
+        obligatorio. Dentro de "creador" solo puede haber "usu01"
+        o "usu02"-->
+        <creador grupo="root">usu01</creador>
+        <!--Tamanio es un elemento optativo. El atributo
+        unidad es obligatorio y solo puede ser
+        "bytes" o "megabytes".Dentro de tamanio solo
+        hay un entero positivo, en este caso 281-->
+        <tamanio unidad="bytes">281</tamanio>
+    </fichero>
+    <fichero creacion="2019-03-03">
+        <creador grupo="usuarios">usu02</creador>
+    </fichero>
+    <fichero creacion="2019-03-03">
+        <creador grupo="root">usu02</creador>
+    </fichero>
+</ficheros>
 \end{verbatim}
-
-
 \end{document}

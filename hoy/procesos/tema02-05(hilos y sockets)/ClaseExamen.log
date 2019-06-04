@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  4 JUN 2019 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  4 JUN 2019 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10,8 +10,8 @@ Babel <3.18> and hyphenation patterns for 10 language(s) loaded.
 Document Class: examen 2011/12/05
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -200,37 +200,39 @@ e
 <examen-img/Escudo.png, id=1, 272.01625pt x 323.2075pt>
 File: examen-img/Escudo.png Graphic file (type png)
 <use examen-img/Escudo.png>
-Package pdftex.def Info: examen-img/Escudo.png  used on input line 4.
-(pdftex.def)             Requested size: 34.5021pt x 40.99265pt.
+Package pdftex.def Info: examen-img/Escudo.png  used on input line 7.
+(pdftex.def)             Requested size: 39.00238pt x 46.33865pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 6.
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./examen-img/Escudo.png>] 
-(./ClaseExamen.aux
+[2] (./ClaseExamen.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 2656 strings out of 494788
- 36822 string characters out of 6177221
- 99688 words of memory out of 5000000
- 5965 multiletter control sequences out of 15000+600000
- 4586 words of font info for 17 fonts, out of 8000000 for 9000
+ 2676 strings out of 494788
+ 37009 string characters out of 6177221
+ 101747 words of memory out of 5000000
+ 5976 multiletter control sequences out of 15000+600000
+ 7024 words of font info for 25 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
- 41i,6n,32p,278b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,32p,459b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on ClaseExamen.pdf (1 page, 217315 bytes).
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
+Output written on ClaseExamen.pdf (2 pages, 219740 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
