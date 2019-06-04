@@ -1,0 +1,20 @@
+\documentclass[a4paper, 12pt]{examen}
+\usepackage{inputenc}
+\begin{document}
+
+%\modulo{Prog. multim. y de dispositivos moviles}
+%\modulo{Planif. y adm. de redes}
+\modulo{Prog. de servicios y procesos. Recuperación}
+%\modulo{Lenguajes de marcas}
+\pregunta{Se desea simular el comportamiento de las colas de clientes en una gasolinera en base a los siguientes requisitos:
+
+\begin{itemize}
+\item{Hay tres surtidores con 100 litros cada uno.}
+\item{Los clientes no llegan todos a la vez. Entre la generación de un cliente y otro hay un tiempo aleatorio de entre 1 y 3 segundos. Se generarán como máximo 10 clientes.}
+
+\item{Cuando se genera un cliente éste intenta acceder a algun surtidor.Si hay alguno libre lo ocupa durante un tiempo al azar entre 1 y 3 segundos y extrae entre 20 y 40 litros de gasolina. Puede pasar que estén todos los surtidores ocupados, en ese caso el cliente se marcha. También puede pasar que un surtidor esté libre pero no tenga gasolina. Un cliente no coge un surtidor si no queda suficiente gasolina para él.}
+\item{Se requiere almacenar cuanta gasolina coge cada cliente. Debe ocurrir que la suma total de gasolina de todos los cliente coincida con la cantidad de gasolina que falta en los surtidores. Es decir, si hay tres surtidores con 100 litros (que suman 300 litros) y despues de la ejecución ocurre que entre los tres surtidores hay 100 litros (lo que significa que supuestamente se han extraído 200 litros) y entre todos los clientes suman 300 litros de gasolina extraída se podrá deducir con total seguridad que hay un error.}
+\end{itemize}
+}{10}
+
+\end{document}
