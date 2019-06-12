@@ -1,0 +1,21 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas. Recuperación primera evaluación}
+
+\pregunta{Crear en HTML un formulario como el mostrado en la figura}{5}
+\begin{figure}[h]
+\includegraphics[scale=0.5]{examen-img/foto_formulario_11.png}
+\end{figure}
+\break
+
+\pregunta{Crea una página HTML que contenga los siguientes elementos
+\begin{itemize}
+\item{Dos encabezamientos h1 y dos encabezamientos h2.}
+\item{Crea una lista numerada con 3 elementos.}
+\item{Crea una tabla como la mostrada en la figura. Dentro de cada celda puedes escribir cualquier cosa. Usando CSS y la técnica que prefieras modifica el fondo de las celdas de la columna que quieras}
+\end{itemize}
+\includegraphics[scale=0.5]{examen-img/foto_06.png}
+}{5	}
+
+\end{document}
