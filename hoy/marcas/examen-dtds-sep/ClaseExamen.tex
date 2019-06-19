@@ -1,0 +1,44 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas}
+
+\pregunta{Elaborar un XML Schema que permita validar un fichero XML como el mostrado al final y que se atenga a las reglas siguientes:}{6.5}
+\begin{itemize}
+\item{    El elemento raíz se llama ``proveedores''}
+\item{    Dentro de él debe haber uno o más elementos ``proveedor''. Tiene siempre un atributo código formado por 3 mayúsculas, seguidas de un guión seguido de 3 cifras.}
+\item{  Dentro de proveedor debe haber un elemento nombre dentro del cual habrá cadenas.}
+\item{  Despues del proveedor hay siempre un elemento ubicacion y dentro de ubicación hay siempre un atributo país}
+\item{  Despues hay un elemento credito, que es obligatorio. Dentro de él puede haber o no un atributo divisa que solo acepta los valores ``euro'' o ``dolar''. Dentro de credito siempre hay un entero positivo.}
+\item{  Despues puede haber o no un elemento llamado adicional. Si existe debe llevar siempre dos elementos: un elemento llamado ``web'' y despues un elemento ``telefono''}
+\end{itemize}
+
+\break
+
+\pregunta{Crear una DTD que permita validar un fichero XML como el mostrado al final y para el cual se han definido las mismas reglas que para el ejercicio anterior.}{3.5}
+
+
+
+\begin{verbatim}
+<proveedores>
+    <!--Debe haber uno o mas elementos proveedor. El atributo codigo es obligatorio-->
+    <proveedor codigo="AAA-333">
+        <!--Nombre obligatorio, sin hijos ni atributos-->
+        <nombre>TESA</nombre>
+        <!--El atributo país es obligatorio-->
+        <ubicacion pais="EEUU">Toledo</ubicacion>
+        <!--Elemento credito optativo.Atributo divisa optativo, pero si existe
+        solo se aceptan como divisa las cadenas euro, dolar o yen-->
+        <credito divisa="euro">25000</credito>
+        <!--Elemento adicional optativo-->
+        <adicional>
+            <!--Elemento web. Obligatorio-->
+            <web>http://www.tesa.com</web>
+            <!--Elemento telefono. Obligatorio-->
+            <telefono>+34 555 22 11 33</telefono>
+        </adicional>
+    </proveedor>
+</proveedores>
+\end{verbatim}
+\end{document}
+
