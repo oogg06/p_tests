@@ -1,0 +1,288 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.2.6)  19 JUN 2019 12:10
+entering extended mode
+**./ClaseExamen.tex
+(ClaseExamen.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+(examen.cls
+Document Class: examen 2011/12/05
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/05/19 3.10 The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\ogomez.CICLOS\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\es@quottoks=\toks14
+\es@quotdepth=\count88
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+Package babel Info: Making ' an active character on input line 725.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(C:\Users\ogomez.CICLOS\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.
+sty
+\lst@mode=\count90
+\lst@gtempboxa=\box26
+\lst@token=\toks18
+\lst@length=\count91
+\lst@currlwidth=\dimen106
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen107
+\lst@width=\dimen108
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen109
+
+(C:\Users\ogomez.CICLOS\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.s
+ty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
+\lst@framebox=\box27
+)
+(C:\Users\ogomez.CICLOS\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.
+cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(C:\Users\ogomez.CICLOS\AppData\Roaming\MiKTeX\2.9\tex\latex\fancybox\fancybox.
+sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box28
+\shadowsize=\dimen110
+\@Sbox=\box29
+\do@VerbBox=\toks19
+\the@fancyput=\toks20
+\this@fancyput=\toks21
+\EndVerbatimTokens=\toks22
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\graphpap.sty"
+Package: graphpap 1994/08/09 v1.0c Standard LaTeX graphpap package (LL)
+)
+\c@numpregunta=\count98
+\puntos=\skip43
+) (ClaseExamen.aux
+! Undefined control sequence.
+l.8 \babel@aux
+              {spanish}{}
+? ‡
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \babel@aux{s
+                panish}{}
+? 
+)
+\openout1 = `ClaseExamen.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+
+(C:\Users\ogomez.CICLOS\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count99
+\scratchdimen=\dimen111
+\scratchbox=\box30
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen112
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
+\everyMPtoPDFconversion=\toks24
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\c@lstlisting=\count105
+
+<examen-img/Escudo.png, id=1, 272.01625pt x 323.2075pt>
+File: examen-img/Escudo.png Graphic file (type png)
+
+<use examen-img/Escudo.png>
+Package pdftex.def Info: examen-img/Escudo.png used on input line 4.
+(pdftex.def)             Requested size: 34.5021pt x 40.99265pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 11.
+ <captura.png, id=2, 578.91281pt x 243.15843pt>
+File: captura.png Graphic file (type png)
+
+<use captura.png>
+Package pdftex.def Info: captura.png used on input line 16.
+(pdftex.def)             Requested size: 289.45569pt x 121.57892pt.
+ [1
+
+{C:/Users/ogomez.CICLOS/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./e
+xamen-img/Escudo.png> <./captura.png>] [2] (ClaseExamen.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+) ) 
+Here is how much of TeX's memory you used:
+ 3999 strings out of 493323
+ 55706 string characters out of 3139043
+ 128979 words of memory out of 3000000
+ 7507 multiletter control sequences out of 15000+200000
+ 4754 words of font info for 18 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,7n,34p,392b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/latxfont/lcircle1.pfb>
+Output written on ClaseExamen.pdf (2 pages, 260822 bytes).
+PDF statistics:
+ 37 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
