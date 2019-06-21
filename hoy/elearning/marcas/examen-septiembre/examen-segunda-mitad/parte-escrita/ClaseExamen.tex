@@ -1,53 +1,92 @@
 \documentclass{examen}
-
+\usepackage{listings}
 \begin{document}
+
 \modulo{Lenguajes de marcas -- PARTE ESCRITA (SOLO PARTE 2)}
 
 
-\pregunta{Elaborar una DTD que permita validar un fichero XML que se atenga a las reglas siguientes:}{1.5}
+\pregunta{Usando el fichero XML con alumnos que se adjunta usar XQuery para crear consultas
+que resuelven los siguientes problemas:
 \begin{itemize}
-\item{    El elemento raíz se llama listacomponentes.}
-\item{    Dentro de él puede haber uno o más elementos componente}
-\item{    Un componente puede ser una tarjetagrafica o un monitor.}
-\item{    Un componente puede tener un atributo llamado codigo cuya estructura es siempre un dígito de 6 cifras.}
-\item{    Una tarjeta gráfica siempre tiene dos elementos llamados memoria y precio.}
-\item{    La memoria siempre es una cifra seguido de GB o TB.}
-\item{    El tamaño del monitor siempre es un entero positivo.}
-\item{    El precio siempre es una cantidad positiva con decimales. El precio siempre lleva un atributo moneda que solo puede valer ``euros'' o ``dolares'' y que se utiliza para saber en qué moneda está el precio.}
+\item{Extraer los nombres de todas las asignaturas ordenadas por orden alfabético ascendente.}
+\item{Devuelve el nombre de las asignaturas cuyo codigo sea {\tt a1}, {\tt a3} o {\tt a4}}
+\item{Hacer el recuento de personas que vivan en Miera (es decir, comprobar su elemento {\tt pobla})}
 
 \end{itemize}
+
+}{1.5}
+
+
+\break
+\begin{verbatim}
+<!--Fichero para consultas XQuery-->
+<modulo>
+    <alumnos>
+        <alumno cod="n12344345">
+            <apenom>Alcalde García, Luis</apenom>
+            <direc>Las Manos, 24</direc>
+            <pobla>Lamadrid</pobla>
+            <telef>942756645</telef>
+        </alumno>
+        <alumno cod="n43483437">
+            <apenom>González Pérez, Olga</apenom>
+            <direc>Miraflor 28 - 3A</direc>
+            <pobla>Torres</pobla>
+            <telef>942564355</telef>
+        </alumno>
+        <alumno cod="n88234942">
+            <apenom>Fernández Díaz, María</apenom>
+            <direc>Luisa Fernanda 53</direc>
+            <pobla>Miera</pobla>
+            <telef>942346945</telef>
+        </alumno>   
+    </alumnos>
+    <asignaturas>
+        <nombre cod="a1">FH</nombre>
+        <nombre cod="a2">FOL</nombre>
+        ...
+    </asignaturas>
+    <notas>
+        <calificacion alum="n12344345" asig="a1">4</calificacion>
+        <calificacion alum="n43483437" asig="a1">5</calificacion>
+        ..Omitido..
+    </notas>
+</modulo>
+\end{verbatim}
 
 \break
 
-\pregunta{Crear un fichero de esquema XML que permita validar un fichero XML como el mostrado al final y para el cual se han definido las siguientes reglas}{3.5}
-\begin{itemize}
-\item{    El elemento raíz se llama listacomponentes.}
-\item{    Dentro de él puede haber uno o más elementos componente}
-\item{    Un componente puede ser una tarjetagrafica o un monitor.}
-\item{    Un componente puede tener un atributo llamado codigo cuya estructura es siempre un dígito de 6 cifras.}
-\item{    Una tarjeta gráfica siempre tiene dos elementos llamados memoria y precio.}
-\item{    La memoria siempre es una cifra seguido de GB o TB.}
-\item{    El tamaño del monitor siempre es un entero positivo.}
-\item{    El precio siempre es una cantidad positiva con decimales. El precio siempre lleva un atributo moneda que solo puede valer ``euros'' o ``dolares'' y que se utiliza para saber en qué moneda está el precio.}
-
-\end{itemize}
-
-
+\pregunta{Dado el archivo XML que se puede encontrar a continuación, 
+crear una hoja de estilo XSLT que transforme dicho archivo en el archivo XML que aparece al final. Observa que en el resultado solo aparecerá un producto {\bf si está en el edificio A}
+}{3.5}
 \begin{verbatim}
-<listacomponentes>
-  <componente>
-    <tarjetagrafica>
-      <memoria>2GB</memoria>
-      <precio moneda="euros">190</precio>
-    </tarjetagrafica>
-  </componente>
-  <componente codigo="123456">
-    <monitor>
-      <tamanio>14</tamanio>
-      <precio moneda="euros">99.49</precio>
-    </monitor>
-  </componente>
-</listacomponentes>
+<inventario><!--Archivo original para transformar con XSLT-->
+    <producto codigo="P1">
+        <peso unidad="kg">10</peso>
+        <nombre>Ordenador</nombre>
+        <lugar edificio="B">
+            <aula>10</aula>
+        </lugar>
+    </producto>
+    <producto codigo="P2">
+        <peso unidad='g'>500</peso>
+        <nombre>Switch</nombre>
+        <lugar edificio="A">
+            <aula>6</aula>
+        </lugar>
+    </producto>
+</inventario>
+\end{verbatim}
+\begin{verbatim}
+<!--Esto debe ser lo que devuelva el archivo XSLT-->
+<resultado>
+    <producto codigo="P2">
+        <peso>500 g</peso>
+        <nombre>Switch</nombre>
+        <ubicacion>A6</ubicacion>
+    </producto>
+</resultado>
+
 \end{verbatim}
 
 \end{document}
