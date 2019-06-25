@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.2.6)  19 JUN 2019 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.2.6)  25 JUN 2019 10:43
 entering extended mode
 **./ClaseExamen.tex
 (ClaseExamen.tex
@@ -144,26 +144,8 @@ Package: graphpap 1994/08/09 v1.0c Standard LaTeX graphpap package (LL)
 \c@numpregunta=\count98
 \puntos=\skip43
 ) (ClaseExamen.aux
-! Undefined control sequence.
-l.8 \babel@aux
-              {spanish}{}
-? ‡
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \babel@aux{s
-                panish}{}
-? 
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
 )
 \openout1 = `ClaseExamen.aux'.
 
@@ -269,7 +251,7 @@ LaTeX Info: Redefining \% on input line 8.
 Here is how much of TeX's memory you used:
  3999 strings out of 493323
  55706 string characters out of 3139043
- 128979 words of memory out of 3000000
+ 128972 words of memory out of 3000000
  7507 multiletter control sequences out of 15000+200000
  4754 words of font info for 18 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -280,7 +262,7 @@ iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on ClaseExamen.pdf (2 pages, 260822 bytes).
+Output written on ClaseExamen.pdf (2 pages, 260667 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

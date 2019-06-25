@@ -1,0 +1,36 @@
+Pregunta 1 resultados
+========================================================================================================
+Averiguar la media de partes que reciben los proyectos Clasificador y OCR. Deben salir dos
+
+
+for $proyecto in doc("datos.xml")//proyecto
+where $proyecto/nombre="Clasificador" or $proyecto/nombre="OCR"
+return
+  <resultado>
+  {
+     avg(doc("datos.xml")//suministra[numproyecto=$proyecto/@numproyecto]/cantidad)
+  }
+  </resultado>
+
+Pregunta 
+==============================================================================================================
+Mostrar los nombres de proyecto, los codigos de parte que reciben y la cantidad de dichas partes que reciben
+
+
+Pregunta 
+==============================================================================================================
+Devolver el recuento de proveedores que han suministrado alguna de estas partes: p1, p2, p3 o p6. Solo debe salir un resultado
+
+Pregunta 
+==============================================================================================================
+Indicar los nombres de proveedores y los nombres de proyecto a los que suministran piezas. No importa si hay repetidos
+
+
+Pregunta 
+==============================================================================================================
+Indicar cuantos proveedores hay cuyo estado sea 20 y su ciudad sea Londres.  Solo debe salir un resultado
+
+
+Pregunta 
+==============================================================================================================
+Mostrar los nombres de los proveedores junto a la media de partes rojas que suministran
