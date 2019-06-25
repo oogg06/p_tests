@@ -1,43 +1,46 @@
 \documentclass{examen}
-
+\usepackage{listings}
 \begin{document}
-\modulo{Lenguajes de marcas -- PARTE ESCRITA (PARTES 1 y 2)}
 
+\modulo{Lenguajes de marcas -- PARTE ESCRITA (PARTES 1 y 2)}
 
 \pregunta{Crea un formulario como el mostrado en la figura}{2}
 \begin{figure}[h]
 \includegraphics[scale=0.7]{examen-img/pagina.png}
 \end{figure}
+
 \break
-
-\pregunta{Crear un esquema XML que permita validar un fichero como el que se muestra a continuación. Se muestran a continuación los requisitos}{3}
-\begin{itemize}
-\item{    La raíz se llama {\tt listado}.}
-\item{    Dentro de la lista debe haber uno o más elementos {\tt cliente}.}
-\item{    Todos los clientes tienen siempre un atributo {\tt id}. Este atributo tiene siempre la misma estructura: dos mayúsculas, seguidas de un guión, seguido de dos cifras.}
-\item{    Todos los clientes tienen siempre dos elementos {\tt nombre} y {\tt pago}.}
-\item{    El {\tt nombre} siempre es una cadena de texto}
-\item{    El pago tiene siempre un atributo {\tt moneda}. Este atributo siempre vale uno de estos dos valores: ``euros'' o ``dolares''}
-\item{    Dentro del elemento {\tt pago} siempre hay un elemento {\tt cantidad}, que es siempre un numero entero positivo. Despues de la cantidad puede haber o no un elemento {\tt banco} que es siempre una cadena de texto}
-\item{    No hace falta que pongas el atributo {\tt xmlns:xs} ni el prefijo {\tt xs} o {\tt xsd}. Este elemento del ejercicio no sumará ni restará.}
-\end{itemize}
-
+\pregunta{Dado el archivo XML que se puede encontrar a continuación, 
+crear una hoja de estilo XSLT que transforme dicho archivo en el archivo XML que aparece al final. Observa que en el resultado solo aparecerá un producto {\bf si está en el edificio A}
+}{3.5}
 \begin{verbatim}
-<!--Ejemplo de fichero-->
-<listado>
-    <cliente id="AZ-89">
-        <nombre>Juan Sanchez</nombre>
-        <pago moneda="euros">
-            <cantidad>210</cantidad>
-            <banco>Caja de ahorros</banco>
-        </pago>
-    </cliente>
-    <cliente id="AZ-89">
-        <nombre>Tomas Ruiz</nombre>
-        <pago moneda="dolares">
-            <cantidad>460</cantidad>
-        </pago>
-    </cliente>
-</listado>
+<inventario><!--Archivo original-->
+    <producto codigo="P1">
+        <peso unidad="kg">10</peso>
+        <nombre>Ordenador</nombre>
+        <lugar edificio="B">
+            <aula>10</aula>
+        </lugar>
+    </producto>
+    <producto codigo="P2">
+        <peso unidad='g'>500</peso>
+        <nombre>Switch</nombre>
+        <lugar edificio="A">
+            <aula>6</aula>
+        </lugar>
+    </producto>
+</inventario>
 \end{verbatim}
+\begin{verbatim}
+<!--Esto debe ser lo que devuelva el archivo XSLT-->
+<resultado>
+    <producto codigo="P2">
+        <peso>500 g</peso>
+        <nombre>Switch</nombre>
+        <ubicacion>A6</ubicacion>
+    </producto>
+</resultado>
+
+\end{verbatim}
+
 \end{document}

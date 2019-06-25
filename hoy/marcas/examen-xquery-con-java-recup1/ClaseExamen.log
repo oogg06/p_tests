@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  12 JUN 2019 13:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  6 JUN 2019 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10,8 +10,8 @@ Babel <3.18> and hyphenation patterns for 10 language(s) loaded.
 Document Class: examen 2011/12/05
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -82,17 +82,42 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count90
+\lst@gtempboxa=\box26
+\lst@token=\toks18
+\lst@length=\count91
+\lst@currlwidth=\dimen106
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen107
+\lst@width=\dimen108
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen109
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
+\lst@framebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 (/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
-\@fancybox=\box26
-\shadowsize=\dimen106
-\@Sbox=\box27
-\do@VerbBox=\toks18
-\the@fancyput=\toks19
-\this@fancyput=\toks20
-\EndVerbatimTokens=\toks21
+\@fancybox=\box28
+\shadowsize=\dimen110
+\@Sbox=\box29
+\do@VerbBox=\toks19
+\the@fancyput=\toks20
+\this@fancyput=\toks21
+\EndVerbatimTokens=\toks22
 \Verbatim@Outfile=\write3
 \Verbatim@Infile=\read1
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
@@ -106,7 +131,7 @@ Package color Info: Driver file: pdftex.def on input line 147.
 (/usr/share/texlive/texmf-dist/tex/latex/base/graphpap.sty
 Package: graphpap 1994/08/09 v1.0c Standard LaTeX graphpap package (LL)
 )
-\c@numpregunta=\count90
+\c@numpregunta=\count98
 \puntos=\skip43
 ) (./ClaseExamen.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -130,17 +155,17 @@ LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen107
-\scratchbox=\box28
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen108
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count99
+\scratchdimen=\dimen111
+\scratchbox=\box30
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen112
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
+\everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -197,42 +222,64 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\c@lstlisting=\count105
 <examen-img/Escudo.png, id=1, 272.01625pt x 323.2075pt>
 File: examen-img/Escudo.png Graphic file (type png)
 <use examen-img/Escudo.png>
-Package pdftex.def Info: examen-img/Escudo.png  used on input line 8.
-(pdftex.def)             Requested size: 39.00238pt x 46.33865pt.
+Package pdftex.def Info: examen-img/Escudo.png  used on input line 4.
+(pdftex.def)             Requested size: 34.5021pt x 40.99265pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <7> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <5> on input line 9.
+
+Overfull \hbox (53.99652pt too wide) in paragraph at lines 32--32
+[]    \OT1/cmtt/m/n/10 public void imprimirNumerosDeProyecto(Strint numprov1, S
+tring numprov2){[] 
+ []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./examen-img/Escudo.png>] 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./examen-img/Escudo.png>]
+<examen-img/BaseDatosProveedoresPartesProyectos.png, id=13, 414.79968pt x 759.5
+8781pt>
+File: examen-img/BaseDatosProveedoresPartesProyectos.png Graphic file (type png
+)
+<use examen-img/BaseDatosProveedoresPartesProyectos.png>
+Package pdftex.def Info: examen-img/BaseDatosProveedoresPartesProyectos.png  us
+ed on input line 82.
+(pdftex.def)             Requested size: 345.0pt x 631.79062pt.
+
+
+LaTeX Warning: Float too large for page by 101.6795pt on input line 83.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2] [3 <./examen-img/BaseDatosProveedoresPartesProyectos.png (PNG copy)>]
 (./ClaseExamen.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 2672 strings out of 494788
- 36979 string characters out of 6177221
- 98747 words of memory out of 5000000
- 5972 multiletter control sequences out of 15000+600000
- 7024 words of font info for 25 fonts, out of 8000000 for 9000
+ 4009 strings out of 494788
+ 56171 string characters out of 6177221
+ 124494 words of memory out of 5000000
+ 7305 multiletter control sequences out of 15000+600000
+ 4754 words of font info for 18 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
- 41i,6n,32p,278b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,34p,278b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on ClaseExamen.pdf (1 page, 212001 bytes).
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/latxfont/lcircle1.pfb>
+Output written on ClaseExamen.pdf (3 pages, 316506 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

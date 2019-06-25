@@ -1,0 +1,85 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas y sistemas de gestión de información}
+
+Dado el archivo XML que se puede encontrar al final, extraer la información pedida en los siguientes enunciados usando el lenguaje que se indique
+
+
+\pregunta{Averiguar los nÃºmeros de proyecto que están en la misma ciudad que otros proyectos. ).}{2}
+\pregunta{Indicar el nombre de los proveedores que hagan algún suministro a los proyectos ``Clasificador'' o `` Proyector''}{2}
+\pregunta{Indicar el nombre de proveedor y la ciudad de los proveedores cuyo estado sea 10.}{1.5}
+\pregunta{Recuperar el código de las partes cuyo ciudad sea ``Paris'' y su color sea ``Azul'' }{1}
+
+\pregunta{Completar la clase implementando un método que imprima los números de proyecto que reciben algún suministro de los proveedores v1 o v2 (solo se necesita examinar la tabla Suministra)}{3.5}
+\begin{verbatim}
+public class ProcesadorXML {
+    Document documento;
+    public void ProcesadorXML(){
+        documento=this.getRaiz("proveedores.xml");    
+    }
+    public Document getRaiz(String nombreFichero){
+        /*... omitido...*/    
+    }
+    public void imprimirNumerosDeProyecto(Strint numprov1, String numprov2){
+        /*...implementa este método...*/
+    }
+    public static void main(String[] argumentos){
+        ProcesadorXML procesador=new Procesador();
+        procesador.imprimirNumerosDeProyecto("v1", "v2");
+    }
+}
+\end{verbatim}
+
+\break 
+\begin{verbatim}
+<datos>
+    <proveedores>
+        <proveedor numprov="v1">
+            <nombreprov>Smith</nombreprov>
+            <estado>20</estado>
+            <ciudad>Londres</ciudad>
+        </proveedor>
+        ... omitido ...
+    </proveedores>
+    <partes>
+        <parte numparte="p1">
+            <nombreparte>Tuerca</nombreparte>
+            <color>Rojo</color>
+            <peso>12</peso>
+            <ciudad>Londres</ciudad>
+        </parte>
+        ... omitido ...
+    </partes>
+    <proyectos>
+        <proyecto numproyecto="y1">
+            <nombreproyecto>Clasificador</nombreproyecto>
+            <ciudad>Paris</ciudad>
+        </proyecto>
+        ... omitido ...
+    </proyectos>
+    <suministros>
+        <suministra>
+            <numprov>v1</numprov>
+            <numparte>p1</numparte>
+            <numproyecto>y1</numproyecto>
+            <cantidad>200</cantidad>
+        </suministra>
+        <suministra>
+            <numprov>v1</numprov>
+            <numparte>p1</numparte>
+            <numproyecto>y4</numproyecto>
+            <cantidad>700</cantidad>
+        </suministra>
+        ... omitido ...
+    </suministros>
+</datos>
+\end{verbatim}
+
+\begin{figure}[h]
+    \caption{Esquema de la base de datos}
+    \label{figura1}
+    \includegraphics[width=\linewidth]{examen-img/BaseDatosProveedoresPartesProyectos.png}
+\end{figure}
+
+\end{document}
