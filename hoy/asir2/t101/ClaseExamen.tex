@@ -1,0 +1,40 @@
+\documentclass[a4paper, 12pt]{examen}
+
+\begin{document}
+
+%\modulo{Prog. multim. y de dispositivos moviles}
+%\modulo{Planif. y adm. de redes}
+%\modulo{Prog. de servicios y procesos}
+%\modulo{Lenguajes de marcas}
+\modulo{Seguridad y alta disponibilidad}
+
+
+En el examen siguiente se te plantean varias cuestiones. Elabora en un fichero de texto (puedes usar el Bloc de Notas, Word, LibreOffice o lo que prefieras) las respuestas a los siguiente problemas. Este fichero, junto con otros ficheros que se te puedan pedir en los distintos ejercicios deberán enviarse al profesor en un ZIP al finalizar la prueba.
+
+
+\pregunta{Dada la clave pública que se te proporciona genera un mensaje cifrado con dicha clave pública de manera que solo el propietario de dicha clave pública pueda leerlo. Ese mensaje deberá ir junto con el fichero de respuestas en un ZIP que deberás entregar al final del examen.}{3}
+
+\pregunta{Para este ejercicio está permitido usar la calculadora del sistema operativo. Se sabe que en una determinada oficina se necesita un SAI y se sabe que se necesitará un suministro eléctrico que asegure 1300W. El fabricante de SAIs con el que se trabaja informa de que el factor de potencia de sus dispositivos es de 0,8. Sabiendo estos datos ¿cual es la potencia aparente mínima que debería tener el dispositivo que finalmente se compre?}{1.5}
+
+\pregunta{¿Qué problemas podrían causarse por motivos de un uso inapropiado de software?}{1}
+
+\pregunta{Un usuario desea proteger un cierto fichero y desea que solo él pueda leerlo, modificarlo y ejecutarlo. Va a permitir que los usuarios que estén en su mismo grupo puedan leerlo y ejecutarlo pero no quiere permitir que ningún otro usuario pueda leerlo, escribirlo ni ejecutarlo. ¿Qué comando (o comandos) deberá utilizar?}{0.5}
+
+\pregunta{¿Qué factores son importantes en el establecimiento de una política de contraseña?}{1}
+
+\pregunta{Se desea utilizar un control de permisos basado en listas de control de acceso.
+\begin{itemize}
+\item{Se tienen dos grupos de usuarios: \tt{profesores} y \tt{alumnos}}
+\item{Se tienen los usuarios \tt{profesor01}, \tt{profesor02}, \tt{alumno01} y \tt{alumno02}. Los dos primeros pertenecen al grupo \tt{profesores} y los dos segundos al grupo \tt{alumnos}.}
+\item{El administrador ha creado tres ficheros de texto en el directorio \tt{/etc}, llamados \tt{/etc/delegados.txt}, \tt{/etc/notascursos.txt} y \tt{/etc/informaciongeneral.txt}}
+\item{El administrado desea que se consiga lo siguiente:}
+    \begin{itemize}
+    \item{El fichero \tt{/etc/delegados.txt} lo pueden ver todos los profesores y el alumno01}
+    \item{El fichero \tt{/etc/notascursos.txt} lo pueden ver todos los profesores pero ningún alumno.}
+    \item{El fichero \tt{/etc/informaciongeneral.txt} lo pueden ver todos los profesores y todos los alumnos.}
+    
+    \end{itemize}
+\end{itemize}
+Construye todos los usuarios, mételos en los grupos correspondientes, crea los ficheros, asigna como administrador los permisos necesarios e indica todos los comandos en el fichero de respuestas que entregarás.
+}{3}
+\end{document}

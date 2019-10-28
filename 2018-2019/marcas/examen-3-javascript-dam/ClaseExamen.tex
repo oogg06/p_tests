@@ -1,0 +1,58 @@
+\documentclass{examen}
+
+\begin{document}
+\modulo{Lenguajes de marcas y sistemas de gestión de información}
+
+
+
+\pregunta{Una editorial desea ofrecer a sus clientes una aplicación que les permita saber como combinar la compra de sus periódicos y revistas de la forma que les resulte más ventajosa. 
+
+Las revistas se llaman TodoCiencia, SoloTV y MasCrucigramas y los precios de sus suscripciones son respectivamente son 100, 50 y 40 euros anuales. Los periódicos ``El diario'', ``El suceso'' y ``Econoticias'' cuestan respectivamente 200, 180 y 150 euros anuales. Se puede combinar una revista con uno o más periódicos. Por defecto debe aparecer marcada la revista ``TodoCiencia`` con todos los periódicos marcados.
+
+La editorial anterior desea que la aplicación anterior implemente ciertos comportamientos en función de las ofertas:
+
+\begin{itemize}
+\item{ Cuando el cliente marque revistas o periódicos la aplicación mostrará en el recuadro las publicaciones que el usuario compra así como el precio total a pagar.}
+\item{ Si se marca un periódico cualquiera y una revista el precio total se reduce al 90\%.}
+\item{ Si se marca un periódico cualquiera y dos revistas el precio total se reduce al 80\%.}
+\item{ Si se marcan dos  periódicos cualesquiera y dos revistas el precio total se reduce al 60\%.}
+\item{Cualquier operación donde entre la revista ``TodoCiencia`` resta 3 euros adicionales a cualquier oferta anterior.}
+\item{Cualquier operación donde entre la revista ``SoloTV`` y el periódico ``Econoticias'' resta 5 euros adicionales a cualquier oferta anterior.}
+\end{itemize}
+}{10}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=.8\textwidth]{examen-img/revistas.png}
+\caption{Formulario de compra editorial}
+\end{figure}
+
+\break
+
+\begin{verbatim}
+<!-- HTML con los controles-->
+<h4>Revistas</h4>
+<input type="radio" name="revistas" value="ciencia" id="ciencia" checked>
+
+<label for="ciencia">TodoCiencia</label>
+<input type="radio" name="revistas" value="tv" id="tv">
+
+<label for="tv">SoloTV</label>
+<input type="radio" name="revistas" value="crucigramas" id="crucigramas">
+                   
+<label for="crucigramas">MasCrucigramas</label>
+
+<h4>Periódicos</h4>
+
+<input type="checkbox" name="periodicos[]" id="diario" value="diario" >
+<label for="diario">El diario</label>
+                    
+<input type="checkbox" name="periodicos[]" id="suceso" value="suceso">
+<label for="suceso">El suceso</label>
+                    
+<input type="checkbox" name="periodicos[]" id="econoticias" value="econoticias">
+<label for="econoticias">Econoticias</label>
+<input type="submit" value="Calcular precio" onclick="calcular(); return false;">
+Precio:<input type="text" id="precio_total">
+\end{verbatim}
+\end{document}
