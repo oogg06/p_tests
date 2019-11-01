@@ -2,7 +2,7 @@
 \ProvidesClass{examen}[2011/12/05]
 \LoadClassWithOptions{article}
 \usepackage[activeacute, spanish]{babel}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{fontenc}
 \usepackage{graphicx}
 \usepackage{fancybox}

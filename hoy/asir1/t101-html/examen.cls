@@ -2,7 +2,7 @@
 \ProvidesClass{examen}[2011/12/05]
 \LoadClassWithOptions{article}
 \usepackage[activeacute, spanish]{babel}
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{fancybox}
 \usepackage[usenames]{color}
@@ -69,7 +69,7 @@
 \addtocounter{numpregunta}{-1}
 
 \begin{center}
-\footnotesize{Este examen consta de \arabic{numpregunta} preguntas y la puntuaciÛn m·xima es de \the\puntos.}
+\footnotesize{Este examen consta de \arabic{numpregunta} preguntas y la puntuaci√≥n m√°xima es de \the\puntos.}
 \end{center}
 
 }
