@@ -17,14 +17,14 @@ lo que se muestra en la figura \ref{figura1}. Ten en cuenta lo siguiente:
 \begin{itemize}
 \item{Debes usar el {\tt float} para posicionar las cajas.}
 \item{Los elementos {\tt h1} de las cajas 1 y 2 van subrayados.}
-\item{Puedes a?adir otros elementos HTML o atributos pero {\bf no puedes cambiar el orden}.}
+\item{Puedes añadir otros elementos HTML o atributos pero {\bf no puedes cambiar el orden}.}
 \item{Todas las cajas llevan color de fondo, que en concreto son dos tonos. Un tono es para las
 cajas 1 y 2 y el otro para la 3, 4 y la 5}
 \item{Se ha modificado el espacio que hay entre el borde las cajas y el texto interno, en concreto se
 han usado 20px de espacio.}
 \end{itemize}
 
-}{1}
+}{2}
 \begin{figure}[h]
     \caption{Resultado esperable en el ejercicio 1}
     \label{figura1}
@@ -32,42 +32,17 @@ han usado 20px de espacio.}
 \end{figure}
 \break
 
-\pregunta{ Elabora un fichero CSS que consiga exactamente
-lo que se muestra en la figura \ref{figura2}.
-Ten en cuenta lo siguiente:
-
-\begin{itemize}
-\item{Se ha usado una rejilla para colocar los elementos. Puedes ver el boceto en la figura \ref{rejilla1}}
-\item{Las cajas llevan el texto centrado, pero los elementos {\tt h1} de todas las cajas van en negrita
-y adem?s el texto de dichos h1 va centrado.}
-\item{Puedes a?adir otros elementos HTML o atributos pero {\bf no puedes cambiar el orden}.}
-\end{itemize}
-
-}{  3.5 }
-\begin{figure}[h]
-    \caption{Resultado esperable en el ejercicio 2}
-    \label{figura2}
-    \includegraphics[width=\linewidth]{ej2.png}
-\end{figure}
-
-\begin{figure}[h]
-    \caption{Rejilla usada para colocar los elementos}
-    \label{rejilla1}
-    \includegraphics[width=\linewidth]{rejilla.png}
-\end{figure}
-
-\break
 
 \pregunta{ Elabora un fichero CSS que consiga lo siguiente para el HTML mostrado.
 \begin{itemize}
-\item{El fondo de la p?gina siempre es un archivo de imagen llamado ``fondo.jpg''}
-\item{Puedes a?adir otros elementos HTML o atributos pero {\bf no puedes cambiar el orden}.}
+\item{El fondo de la página siempre es un archivo de imagen llamado ``fondo.jpg''}
+\item{Puedes añadir otros elementos HTML o atributos pero {\bf no puedes cambiar el orden}.}
 \item{Se han definido dos estilos: uno para pantallas grandes (de 800px en adelante) y otro para peque?as (de menos de 800px)}
-\item{En pantallas peque?as:}
+\item{En pantallas pequeñas:}
     \begin{itemize}
     \item{Se ha modificado el color de los encabezados y se ha usado un tono gris.}
     \item{Se ha cambiado la distancia entre cada caja con respecto a su parte de arriba en 15px.}
-    \item{La caja 3 no se muestra. Las cajas 2 y 4 tienen un aspecto distinto al de las cajas 1 y 5.}
+    \item{La caja 3 no se muestra (fondo blanco con texto blanco). Las cajas 2 y 4 tienen un aspecto distinto al de las cajas 1 y 5.}
     \end{itemize}
 \item {En el caso de pantallas grandes:}
 
@@ -77,16 +52,16 @@ y adem?s el texto de dichos h1 va centrado.}
 \end{itemize}
 \end{itemize}
 
-}{  3.5 }
+}{  5 }
 \break
 \begin{figure}[h]
-    \caption{Resultado esperable en el ejercicio 3 (caso 1)}
+    \caption{Resultado esperable en el ejercicio 2 (caso 1)}
     \label{figura31}
     \includegraphics[width=0.8\linewidth]{ej31.png}
 \end{figure}
 
 \begin{figure}[h]
-    \caption{Resultado esperable en el ejercicio 3 (caso 2)}
+    \caption{Resultado esperable en el ejercicio 2 (caso 2)}
     \label{figura32}
     \includegraphics[width=\linewidth]{ej32.png}
 \end{figure}
@@ -139,29 +114,8 @@ y adem?s el texto de dichos h1 va centrado.}
 </div><!--Fin de la caja 5-->
 \end{verbatim}
 
-\begin{verbatim}
-<div id="caja1"> <!--Ejercicio 3-->
-    <h1>Caja 1</h1>
-    Texto ...
-</div><!--Fin de la caja 1-->
-<div id="caja2">
-    <h1>Caja 2</h1>
-    Texto ...
-</div><!--Fin de la caja 2-->
-<div id="caja3">
-    <h1>Caja 3</h1>
-    Texto ...
-</div><!--Fin de la caja 3-->
-<div id="caja4">
-    <h1>Caja 4</h1>
-    Texto ...
-</div><!--Fin de la caja 4-->
-<div id="caja5">
-    <h1>Caja 5</h1>
-    Texto ...
-</div><!--Fin de la caja 5-->
-\end{verbatim}
-\pregunta{Dada la tabla HTML que se muestra (y que no se puede modificar) usar CSS para conseguir que se muestre como indica la figura:}{2}
+
+\pregunta{Dada la tabla HTML que se muestra (y que no se puede modificar) usar CSS para conseguir que se muestre como indica la figura:}{3}
 
 \begin{itemize}
 \item{El fondo de las cabeceras es azul y el color de las letras es blanco.}
