@@ -5,5 +5,28 @@
 %\modulo{Programación de servicios y procesos}
 %\modulo{Seguridad y alta disponibilidad}
 
-\pregunta{Prueba}{1}
+Para este examen asegúrate de tener lo siguiente:
+
+\begin{itemize}
+\item{Una máquina virtual con Ubuntu Server instalado. Esta máquina debe tener dos tarjetas de red en modo puente, una llamada ``enp0s3`` y otra llamada ``enp0s8`` . También debe tener instalado ``nftables``, tener una carpeta compartida con el anfitrión y tener instalado Apache. Puedes verificar los requisitos ejecutando el script de la pizarra. }
+\item{Una máquina virtual con Windows 7  instalado. Esta máquina debe tener una sola tarjeta de red en modo puente. Dentro debe estar instalado el servidor web Apache}
+\item{El número de puesto de tu equipo, que será algo como PC-XX, siendo XX un número. P. ej. PC-02 o PC-21. }
+\item{Al final del examen deberás enviar tus respuestas en un fichero Word o LibreOffice al correo del profesor.}
+\end{itemize}
+\pregunta{Escribe un fichero de configuración para ``netplan`` para conseguir lo siguiente:
+\begin{itemize}
+\item{La tarjeta ``enp0s8`` tendrá una dirección del tipo 172.16.xxx.1 con máscara 255.255.0.0}
+\item{La tarjeta ``enp0s3`` tendrá una dirección del tipo 10.xxx.8.1 con máscara 255.255.255.0. También tendrá como gateway la dirección 10.15.0.220 y como servidores DNS las direcciones 8.8.4.4 y 8.8.8.8}
+\end{itemize}
+}{2.5}
+
+\pregunta{Haz que la máquina virtual Ubuntu se convierta en en el router por defecto del Windows 7. Ubuntu deberá aceptar paquetes por la interfaz ``enp0s8`` y sacarlos por la ``enp0s3`` mediante NAT. Indica los comandos de ``nftables`` y/o acciones en el cortafuegos de Windows 7 en el fichero que entregarás al final.}{2.5}
+\pregunta{Consigue lo siguiente mediante comandos ``nft`` 
+\begin{itemize}
+\item{El servidor web Apache instalado en Ubuntu debe ser visible a cualquier equipo de la red cuya IP empiece por 172.16.aaa.bbb (1 punto)}
+\item{El servidor Apache instalado en Windows 7 debe ser visible a la IP del anfitrión, el Windows 10 y además los paquetes deben quedar registrados en el log del sistema. (1.5 puntos)}
+\item{Consigue con ``nft`` que el Windows 7 pueda hacer ping a tu Windows 10 y al 10.15.0.220, pero a nadie más. Ten en cuenta que ``ping`` usa el protocolo ICMP (1.5 puntos).}
+\item{Activa el recuento de paquetes de forma que Ubuntu registre cuantos paquetes salen desde el Windows 7 con destino a algún puerto seguro.}
+\end{itemize}
+}{5}
 \end{document}
