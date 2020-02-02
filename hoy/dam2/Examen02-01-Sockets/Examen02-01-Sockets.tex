@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{examen}
+
+\begin{document}
+%\modulo{Lenguajes de marcas}
+\modulo{Programación de servicios y procesos}
+%\modulo{Seguridad y alta disponibilidad}
+
+\pregunta{Un servicio de validación funciona en base al siguiente protocolo:
+
+\begin{enumerate}
+\item{El cliente envia el mensaje HOLA.}
+\item{El cliente espera que el servidor le envíe 2 lineas. Una contiene el texto BIENVENIDO y la otra contiene un número que actuará como código. Sin embargo, a veces el servidor tiene errores y en lugar de enviar un número en la segunda línea envía una cadena.}
+\item{Si el servidor ha enviado una cadena hay que volver a empezar. Si el servidor funcionó bien el cliente tiene que multiplicar por 2 el número que recibió del servidor.}
+\item{El cliente envía al servidor dos líneas. Una contiene el texto CODIGO y la otra contiene el código de validación.}
+\item{El cliente espera que le envíen una línea que contendrá un mensaje que puede ser de ``OK'' (para indicar que todo fue bien) o que puede ser ``FALLO'' (para indicar que todo ha ido mal y habría que volver a empezar).}
+\end{enumerate}
+
+Crea un cliente Java que implemente este protocolo. Se valorará la calidad del código de la solución.}{3.5}
+
+
+\pregunta{Implementa el servidor multihilo que procesa el protocolo comentado en el ejercicio anterior (incluyendo el que de vez en cuando de manera aleatoria el servidor tiene errores al enviar la segunda línea y envía cadenas en lugar de números. Se valorará la calidad del código de la solución.}{6.5}
+
+
+
+\end{document}
