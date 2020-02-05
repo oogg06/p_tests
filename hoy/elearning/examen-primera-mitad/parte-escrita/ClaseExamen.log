@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.5)  5 FEB 2020 09:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.5)  5 FEB 2020 10:15
 entering extended mode
 **./ClaseExamen.tex
 (ClaseExamen.tex
@@ -195,16 +195,21 @@ File: examen-img/Escudo.png Graphic file (type png)
 Package pdftex.def Info: examen-img/Escudo.png  used on input line 4.
 (pdftex.def)             Requested size: 34.5021pt x 40.99265pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 7.
+(Font)              <7> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 7.
-<examen-img/foto_formulario_14.png, id=2, 403.5075pt x 291.0875pt>
+(Font)              <5> on input line 8.
+<examen-img/foto_formulario_14.png, id=2, 528.47438pt x 353.06906pt>
 File: examen-img/foto_formulario_14.png Graphic file (type png)
 <use examen-img/foto_formulario_14.png>
 Package pdftex.def Info: examen-img/foto_formulario_14.png  used on input line 
-34.
-(pdftex.def)             Requested size: 282.45332pt x 203.75984pt.
- [1
+33.
+(pdftex.def)             Requested size: 369.92953pt x 247.14665pt.
+
+Overfull \hbox (24.92953pt too wide) in paragraph at lines 33--34
+[][] 
+ []
+
+[1
 
 {C:/Users/ogomez/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./examen-i
 mg/Escudo.png>] [2 <./examen-img/foto_formulario_14.png>] (ClaseExamen.aux
@@ -224,9 +229,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on ClaseExamen.pdf (2 pages, 236364 bytes).
+Output written on ClaseExamen.pdf (2 pages, 240514 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
